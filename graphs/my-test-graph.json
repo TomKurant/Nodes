@@ -1,0 +1,543 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "cat",
+      "type": "",
+      "color": "#3498db",
+      "x": 114.19443066140364,
+      "y": -6.287980429096067,
+      "definition": "",
+      "comments": [
+        {
+          "text": "self loving creature that loves to be served",
+          "timestamp": "4/29/2026, 4:09:21 PM"
+        }
+      ],
+      "tags": [
+        "Animals"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "dog",
+      "type": "",
+      "color": "#3498db",
+      "x": 16.873824183616186,
+      "y": -104.0094893064247,
+      "definition": "",
+      "comments": [
+        {
+          "text": "Loyal",
+          "timestamp": "4/29/2026, 4:09:39 PM"
+        }
+      ],
+      "tags": [
+        "Animals"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "spider",
+      "type": "",
+      "color": "#3498db",
+      "x": 29.631252628158762,
+      "y": 242.8081220071803,
+      "definition": "",
+      "comments": [
+        {
+          "text": "Disgusting",
+          "timestamp": "4/29/2026, 4:08:28 PM"
+        },
+        {
+          "text": "But usefull to kill mosquitoes",
+          "timestamp": "4/29/2026, 4:08:45 PM"
+        }
+      ],
+      "tags": [
+        "Animals"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tom",
+      "type": "",
+      "color": "#3498db",
+      "x": -118.59346189510893,
+      "y": -7.1418309611597195,
+      "definition": "Human",
+      "comments": [
+        {
+          "text": "happy",
+          "timestamp": "4/27/2026, 4:15:58 PM"
+        }
+      ],
+      "tags": [
+        "Animals"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "2 legs",
+      "type": "",
+      "color": "#4fdb33",
+      "x": -20.92815214403662,
+      "y": -279.3432266583794,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Concepts"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "4 legs",
+      "type": "",
+      "color": "#36db33",
+      "x": 137.17695660509952,
+      "y": -236.757967751633,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Concepts"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "8 legs",
+      "type": "",
+      "color": "#33db36",
+      "x": 261.8930014214692,
+      "y": 110.28821065913083,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Concepts"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Biology",
+      "type": "",
+      "color": "#db3333",
+      "x": 293.0588689068623,
+      "y": -124.37827967322099,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Concepts"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cute",
+      "type": "",
+      "color": "#33db55",
+      "x": -31.29415368685439,
+      "y": 117.74725683141284,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Concepts"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Monster looking",
+      "type": "",
+      "color": "#33db47",
+      "x": -248.8689110894754,
+      "y": 169.33292874242844,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Concepts"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Aesthetics",
+      "type": "",
+      "color": "#db3333",
+      "x": -182.1989605748552,
+      "y": 354.2905094235408,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Concepts"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "butterfly",
+      "type": "",
+      "color": "#3498db",
+      "x": 200.17190382867355,
+      "y": 278.97555589612887,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Animals"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "6 legs",
+      "type": "",
+      "color": "#33db5d",
+      "x": 434.00546462611413,
+      "y": 111.44075973259928,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Concepts"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "chicken",
+      "type": "",
+      "color": "#3498db",
+      "x": -272.25225788916356,
+      "y": -243.09393716652542,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Animals"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "fox",
+      "type": "",
+      "color": "#3498db",
+      "x": -147.09098808758822,
+      "y": -143.03691300254567,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Animals"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "viper",
+      "type": "",
+      "color": "#3498db",
+      "x": -371.5785923449431,
+      "y": -46.98367783136937,
+      "definition": "",
+      "comments": [],
+      "tags": [
+        "Animals"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": 25,
+      "sourceId": 6,
+      "targetId": 9,
+      "name": "",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 26,
+      "sourceId": 4,
+      "targetId": 9,
+      "name": "",
+      "type": "",
+      "color": "#b3d9ff",
+      "comments": []
+    },
+    {
+      "id": 27,
+      "sourceId": 8,
+      "targetId": 9,
+      "name": "",
+      "type": "",
+      "color": "#b3d9ff",
+      "comments": []
+    },
+    {
+      "id": 30,
+      "sourceId": 3,
+      "targetId": 4,
+      "name": "",
+      "type": "",
+      "color": "#add6ff",
+      "comments": []
+    },
+    {
+      "id": 31,
+      "sourceId": 2,
+      "targetId": 8,
+      "name": "",
+      "type": "",
+      "color": "#b2d4f5",
+      "comments": []
+    },
+    {
+      "id": 32,
+      "sourceId": 3,
+      "targetId": 2,
+      "name": "has phobia of",
+      "type": "",
+      "color": "#bddeff",
+      "comments": []
+    },
+    {
+      "id": 33,
+      "sourceId": 3,
+      "targetId": 1,
+      "name": "likes",
+      "type": "",
+      "color": "#b8dbff",
+      "comments": []
+    },
+    {
+      "id": 34,
+      "sourceId": 3,
+      "targetId": 0,
+      "name": "loves",
+      "type": "",
+      "color": "#c2e0ff",
+      "comments": []
+    },
+    {
+      "id": 35,
+      "sourceId": 0,
+      "targetId": 1,
+      "name": "scared of",
+      "type": "",
+      "color": "#b8dbff",
+      "comments": []
+    },
+    {
+      "id": 38,
+      "sourceId": 0,
+      "targetId": 6,
+      "name": "",
+      "type": "",
+      "color": "#bddeff",
+      "comments": []
+    },
+    {
+      "id": 39,
+      "sourceId": 2,
+      "targetId": 11,
+      "name": "",
+      "type": "",
+      "color": "#b8dbff",
+      "comments": []
+    },
+    {
+      "id": 40,
+      "sourceId": 3,
+      "targetId": 11,
+      "name": "",
+      "type": "",
+      "color": "#a8d4ff",
+      "comments": []
+    },
+    {
+      "id": 41,
+      "sourceId": 1,
+      "targetId": 10,
+      "name": "",
+      "type": "",
+      "color": "#cce6ff",
+      "comments": []
+    },
+    {
+      "id": 43,
+      "sourceId": 0,
+      "targetId": 10,
+      "name": "",
+      "type": "",
+      "color": "#add6ff",
+      "comments": []
+    },
+    {
+      "id": 48,
+      "sourceId": 1,
+      "targetId": 6,
+      "name": "",
+      "type": "",
+      "color": "#a8d4ff",
+      "comments": []
+    },
+    {
+      "id": 49,
+      "sourceId": 10,
+      "targetId": 34,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 50,
+      "sourceId": 11,
+      "targetId": 34,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 53,
+      "sourceId": 35,
+      "targetId": 10,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 54,
+      "sourceId": 2,
+      "targetId": 35,
+      "name": "traps in web",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 56,
+      "sourceId": 35,
+      "targetId": 36,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 57,
+      "sourceId": 36,
+      "targetId": 9,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 59,
+      "sourceId": 38,
+      "targetId": 37,
+      "name": "hunts",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 60,
+      "sourceId": 37,
+      "targetId": 39,
+      "name": "hunts",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 61,
+      "sourceId": 39,
+      "targetId": 38,
+      "name": "hunts",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 62,
+      "sourceId": 38,
+      "targetId": 6,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 63,
+      "sourceId": 37,
+      "targetId": 4,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 64,
+      "sourceId": 39,
+      "targetId": 11,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 65,
+      "sourceId": 38,
+      "targetId": 10,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 66,
+      "sourceId": 3,
+      "targetId": 37,
+      "name": "eats",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 69,
+      "sourceId": 35,
+      "targetId": 2,
+      "name": "does not see",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 70,
+      "sourceId": 1,
+      "targetId": 1,
+      "name": "runs after the tail of",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 79,
+      "sourceId": 2,
+      "targetId": 35,
+      "name": "has no sympathy for",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 82,
+      "sourceId": 2,
+      "targetId": 35,
+      "name": "digests and eats",
+      "type": "",
+      "color": "",
+      "comments": []
+    }
+  ],
+  "nextNodeId": 42,
+  "nextLinkId": 84,
+  "globalTags": [
+    "Animals",
+    "Concepts"
+  ],
+  "nodeRadius": 35,
+  "selectedLogo": null
+}

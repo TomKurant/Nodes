@@ -1,0 +1,400 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Enterprise",
+      "type": "enterprise",
+      "color": "#3498db",
+      "x": -214.30467424333906,
+      "y": -32.978845469375834,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 1,
+      "name": "Country",
+      "type": "country",
+      "color": "#3498db",
+      "x": -195.27848110733814,
+      "y": 65.95735883782899,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 2,
+      "name": "Site",
+      "type": "site",
+      "color": "#3498db",
+      "x": -63.04643881213169,
+      "y": 30.758901536227274,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 3,
+      "name": "ProductionLine",
+      "type": "production_line",
+      "color": "#3498db",
+      "x": 133.87466014547792,
+      "y": 14.586637370626487,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 4,
+      "name": "Equipment",
+      "type": "equipment",
+      "color": "#3498db",
+      "x": 286.0842052334853,
+      "y": -75.78778002537791,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 5,
+      "name": "FeedstockSilo",
+      "type": "feedstock_silo",
+      "color": "#3498db",
+      "x": 464.17122102337567,
+      "y": 28.798723241423513,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 6,
+      "name": "FeedstockScrew",
+      "type": "feedstock_screw",
+      "color": "#3498db",
+      "x": 418,
+      "y": 113.4375,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 7,
+      "name": "Spirajoule",
+      "type": "spirajoule",
+      "color": "#3498db",
+      "x": 216.63860028708194,
+      "y": -257.4879244741868,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 8,
+      "name": "SpirajouleZone",
+      "type": "spirajoule_zone",
+      "color": "#3498db",
+      "x": 53.013339317473964,
+      "y": -115.74278561097987,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 9,
+      "name": "TransferScrew",
+      "type": "transfer_screw",
+      "color": "#3498db",
+      "x": 516,
+      "y": -127.5625,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 10,
+      "name": "CoolingScrew",
+      "type": "cooling_screw",
+      "color": "#3498db",
+      "x": 448.75815654629326,
+      "y": -200.409345066184,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 11,
+      "name": "BigBag",
+      "type": "big_bag",
+      "color": "#3498db",
+      "x": 480.1413841705275,
+      "y": -63.705895300858586,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 12,
+      "name": "MaterialFlow",
+      "type": "material_flow",
+      "color": "#3498db",
+      "x": 156.706091908679,
+      "y": 132.54903481383224,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 13,
+      "name": "Sensor",
+      "type": "sensor",
+      "color": "#3498db",
+      "x": 288.93813420388545,
+      "y": 113.52284167783131,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 14,
+      "name": "SensorReading",
+      "type": "sensor_reading",
+      "color": "#3498db",
+      "x": 419,
+      "y": 224.4375,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 15,
+      "name": "SpirajouleStateEvent",
+      "type": "spirajoule_state_event",
+      "color": "#3498db",
+      "x": 460.75558178485625,
+      "y": -286.0142488791806,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 16,
+      "name": "LineStateEvent",
+      "type": "line_state_event",
+      "color": "#3498db",
+      "x": -92.53703817293312,
+      "y": -52.00503860537676,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 17,
+      "name": "Operator",
+      "type": "operator",
+      "color": "#3498db",
+      "x": -120.12501822013448,
+      "y": 191.53023353543512,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 18,
+      "name": "Shift",
+      "type": "shift",
+      "color": "#3498db",
+      "x": 11.155714418271927,
+      "y": 94.49664854183038,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    }
+  ],
+  "links": [
+    {
+      "id": 0,
+      "sourceId": 2,
+      "targetId": 1,
+      "name": "site_in_country",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 1,
+      "sourceId": 2,
+      "targetId": 0,
+      "name": "site_in_enterprise",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 2,
+      "sourceId": 3,
+      "targetId": 2,
+      "name": "production_line_at_site",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "sourceId": 4,
+      "targetId": 3,
+      "name": "equipment_on_line",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 4,
+      "sourceId": 5,
+      "targetId": 4,
+      "name": "feedstock_silo_is_equipment",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "sourceId": 6,
+      "targetId": 4,
+      "name": "feedstock_screw_is_equipment",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 6,
+      "sourceId": 7,
+      "targetId": 4,
+      "name": "spirajoule_is_equipment",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 7,
+      "sourceId": 8,
+      "targetId": 4,
+      "name": "spirajoule_zone_is_equipment",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 8,
+      "sourceId": 9,
+      "targetId": 4,
+      "name": "transfer_screw_is_equipment",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 9,
+      "sourceId": 10,
+      "targetId": 4,
+      "name": "cooling_screw_is_equipment",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 10,
+      "sourceId": 11,
+      "targetId": 4,
+      "name": "big_bag_is_equipment",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 11,
+      "sourceId": 8,
+      "targetId": 7,
+      "name": "spirajoule_zone_in_spirajoule",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 12,
+      "sourceId": 13,
+      "targetId": 4,
+      "name": "sensor_on_equipment",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 13,
+      "sourceId": 14,
+      "targetId": 13,
+      "name": "reading_of_sensor",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 14,
+      "sourceId": 15,
+      "targetId": 7,
+      "name": "spirajoule_state_event_on_spirajoule",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 15,
+      "sourceId": 16,
+      "targetId": 3,
+      "name": "line_state_event_on_line",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 16,
+      "sourceId": 12,
+      "targetId": 4,
+      "name": "material_flow_source_equipment",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 17,
+      "sourceId": 12,
+      "targetId": 4,
+      "name": "material_flow_target_equipment",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 18,
+      "sourceId": 18,
+      "targetId": 17,
+      "name": "shift_of_operator",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    },
+    {
+      "id": 19,
+      "sourceId": 18,
+      "targetId": 3,
+      "name": "shift_on_line",
+      "type": "",
+      "color": "#99ccff",
+      "comments": []
+    }
+  ],
+  "nextNodeId": 19,
+  "nextLinkId": 20,
+  "globalTags": [],
+  "nodeRadius": 30,
+  "selectedLogo": "1779964943226"
+}

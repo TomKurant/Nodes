@@ -1,0 +1,1410 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "FABRIC",
+      "type": "",
+      "color": "#CDEB8B",
+      "x": 510.2213055226351,
+      "y": 962.9409708503695,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 1,
+      "name": "BRONZE LAKEHOUSE",
+      "type": "cylinder3",
+      "color": "#ffcc99",
+      "x": 262.8456896035974,
+      "y": -714.1531370072559,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 2,
+      "name": "Swagger",
+      "type": "",
+      "color": "#60a917",
+      "x": 227.9631481013658,
+      "y": 894.5129178641616,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 3,
+      "name": "COMPANY_ID_matchedCustomerInvoices_TO_FUSION",
+      "type": "process",
+      "color": "#e51400",
+      "x": 50.07081436243412,
+      "y": -526.0025308129373,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 4,
+      "name": "Transactions Json To Delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": -539.807973004621,
+      "y": 1057.6790862659946,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 5,
+      "name": "Suppliers",
+      "type": "process",
+      "color": "#e51400",
+      "x": 356.2176744861877,
+      "y": 622.3354803803329,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 6,
+      "name": "Transactions_Types",
+      "type": "process",
+      "color": "#e51400",
+      "x": -158.9095860220058,
+      "y": 265.33260721854975,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 7,
+      "name": "SILVER LAKEHOUSE",
+      "type": "cylinder3",
+      "color": "#FFFFFF",
+      "x": 183.05971294792204,
+      "y": -971.8167415454265,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 8,
+      "name": "GOLD LAKEHOUSE",
+      "type": "cylinder3",
+      "color": "#FFCD28",
+      "x": -166.65269957637378,
+      "y": -1048.677271449292,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 9,
+      "name": "Customers",
+      "type": "process",
+      "color": "#e51400",
+      "x": -377.55375625272575,
+      "y": 470.0233548951784,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 10,
+      "name": "Companies",
+      "type": "process",
+      "color": "#e51400",
+      "x": 22.876240408067797,
+      "y": -180.2591525799711,
+      "definition": "",
+      "comments": [
+        {
+          "text": "companyID",
+          "timestamp": "4/28/2026, 3:06:21 PM"
+        },
+        {
+          "text": "companyName",
+          "timestamp": "4/28/2026, 3:06:21 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 11,
+      "name": "v1/objects/companies",
+      "type": "",
+      "color": "#3498db",
+      "x": -879.4006056798854,
+      "y": -425.9653657691384,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 12,
+      "name": "Companies",
+      "type": "process",
+      "color": "#e51400",
+      "x": -255.1024348202848,
+      "y": -276.7203047045215,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 13,
+      "name": "Get companies data",
+      "type": "image",
+      "color": "#3498db",
+      "x": -686.6411747548747,
+      "y": -384.8496568275494,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 14,
+      "name": "Companies Json To Delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": -483.8967799925737,
+      "y": -318.6603180021563,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 15,
+      "name": "v1/objects/customer-transactions",
+      "type": "",
+      "color": "#3498db",
+      "x": -439.854332910838,
+      "y": -513.1265626567417,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 16,
+      "name": "Get companies data",
+      "type": "image",
+      "color": "#3498db",
+      "x": -254.27798582554865,
+      "y": -441.3294083203834,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 17,
+      "name": "Suppliers.json",
+      "type": "hexagon",
+      "color": "#FFCD28",
+      "x": -79.68987001471238,
+      "y": 697.1717222076275,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 18,
+      "name": "TRANSACTIONS.JSON",
+      "type": "swimlane",
+      "color": "#3498db",
+      "x": 48.18510657671162,
+      "y": 1111.7928729050054,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 19,
+      "name": "COMPANY_ID",
+      "type": "swimlane",
+      "color": "#3498db",
+      "x": -582.722987834304,
+      "y": -835.5484827415951,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 20,
+      "name": "COMPANY_ID_matchedCustomerInvoices_YYYYMMDDTHHMMSSZ.json",
+      "type": "hexagon",
+      "color": "#FFCD28",
+      "x": -112.66195530591057,
+      "y": -545.7635099502198,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 21,
+      "name": "COMPANY_ID_unmatchedCustomerInvoices_YYYYMMDDTHHMMSSZ.json",
+      "type": "hexagon",
+      "color": "#FFCD28",
+      "x": -123.15087613205911,
+      "y": -363.09505001316523,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 22,
+      "name": "COMPANY_ID_unmatchedCustomerInvoices_TO_FUSION",
+      "type": "process",
+      "color": "#e51400",
+      "x": 14.372920112481756,
+      "y": -345.15597680866745,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 23,
+      "name": "Transactions_Customers",
+      "type": "process",
+      "color": "#e51400",
+      "x": 223.81152908709686,
+      "y": -247.71419156159672,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 24,
+      "name": "General Ledger to delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": 1027.6283419418182,
+      "y": -280.3323621434861,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 25,
+      "name": "FusionUnified.parquet",
+      "type": "document",
+      "color": "#3498db",
+      "x": 143.94649425940943,
+      "y": -388.9333118783502,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 26,
+      "name": "Currencies",
+      "type": "process",
+      "color": "#e51400",
+      "x": 300.0293173551487,
+      "y": -2.153583685931963,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 27,
+      "name": "Transactions_Customers to gold",
+      "type": "image",
+      "color": "#3498db",
+      "x": 319.0113535690387,
+      "y": -141.5652256485836,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 28,
+      "name": "v1/objects/customers?companyId=",
+      "type": "",
+      "color": "#3498db",
+      "x": -1175.7512368416071,
+      "y": 455.3397598353523,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 29,
+      "name": "Fudion All Transactions to one table",
+      "type": "image",
+      "color": "#3498db",
+      "x": -237.05147690931355,
+      "y": -801.5626467676447,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 30,
+      "name": "Customers",
+      "type": "process",
+      "color": "#e51400",
+      "x": -788.5374821802164,
+      "y": 463.9394560677161,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 31,
+      "name": "Get Customers and to delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": -982.5907988034436,
+      "y": 458.5913230012514,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 32,
+      "name": "Customers Json To Delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": -588.4694916403002,
+      "y": 469.506118615894,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 33,
+      "name": "Customers",
+      "type": "process",
+      "color": "#e51400",
+      "x": 27.28257473512197,
+      "y": 463.4616099625107,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 34,
+      "name": "Customers Json To Delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": -169.7914121436964,
+      "y": 467.29034549890974,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 35,
+      "name": "https://data.norges-bank.no/api/data/EXR/B.NOK.SP?format=sdmx-json&lastNObservations=2000&locale=no",
+      "type": "",
+      "color": "#FFFFFF",
+      "x": -314.9211801674384,
+      "y": 85.68062262851447,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 36,
+      "name": "Currency.json",
+      "type": "hexagon",
+      "color": "#FFCD28",
+      "x": 10.156353561360667,
+      "y": 91.82902391202846,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 37,
+      "name": "fsdoifajdspio",
+      "type": "",
+      "color": "#3498db",
+      "x": -211.16664038395496,
+      "y": 985.7224823286631,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 38,
+      "name": "Get currency data",
+      "type": "image",
+      "color": "#3498db",
+      "x": -142.64732438388026,
+      "y": 89.4119828143491,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 39,
+      "name": "Currency to Delta table",
+      "type": "image",
+      "color": "#3498db",
+      "x": 160.7301704179113,
+      "y": 83.55993004679517,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 40,
+      "name": "Currencies",
+      "type": "process",
+      "color": "#e51400",
+      "x": 716.5339528391105,
+      "y": 43.05344623653813,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 41,
+      "name": "Currency to gold",
+      "type": "image",
+      "color": "#3498db",
+      "x": 515.1585691758792,
+      "y": 20.420095514035207,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 42,
+      "name": "Suppliers_Transaction.json",
+      "type": "hexagon",
+      "color": "#FFCD28",
+      "x": -971.5709387191553,
+      "y": -75.8077817451613,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 43,
+      "name": "v1/objects/supplier-transactions?companyId=",
+      "type": "",
+      "color": "#3498db",
+      "x": -1349.803728482449,
+      "y": -100.57699165250773,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 44,
+      "name": "Get suppliers transactions",
+      "type": "image",
+      "color": "#3498db",
+      "x": -1159.9121254083796,
+      "y": -92.0350772929417,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 45,
+      "name": "Suppliers_transactions",
+      "type": "process",
+      "color": "#e51400",
+      "x": -596.7728413011752,
+      "y": -65.1646212267783,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 46,
+      "name": "Suppliers Transactions Json to Delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": -784.8421954297725,
+      "y": -64.02487645098606,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 47,
+      "name": "Suppliers_Transactions",
+      "type": "process",
+      "color": "#e51400",
+      "x": -199.72137334232335,
+      "y": -70.25590178740804,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 48,
+      "name": "Suppliers Transactions to Delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": -403.8041396423591,
+      "y": -75.66478354383403,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 49,
+      "name": "Suppliers_Transactions",
+      "type": "process",
+      "color": "#e51400",
+      "x": 139.12463851618088,
+      "y": -67.09607606776346,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 50,
+      "name": "Suppliers Transactions to Delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": -21.341691316346633,
+      "y": -35.230160854452016,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 51,
+      "name": "v1/objects/suppliers?companyId=",
+      "type": "",
+      "color": "#3498db",
+      "x": -512.8830446485209,
+      "y": 736.1378539458907,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 52,
+      "name": "Get suppliers and to delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": -302.2750749342927,
+      "y": 720.7364549857034,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 53,
+      "name": "Get suppliers and to delta",
+      "type": "image",
+      "color": "#3498db",
+      "x": 142.19937781784117,
+      "y": 656.3294840121483,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 54,
+      "name": "Suppliers",
+      "type": "process",
+      "color": "#e51400",
+      "x": 770.5149172557908,
+      "y": 588.4478154722614,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 55,
+      "name": "Suppliers",
+      "type": "process",
+      "color": "#e51400",
+      "x": 1164.9225694612092,
+      "y": 567.1650148786889,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 56,
+      "name": "Remove duplicates suppliers",
+      "type": "image",
+      "color": "#3498db",
+      "x": 566.3772326794608,
+      "y": 605.8357870960107,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 57,
+      "name": "Remove duplicates suppliers",
+      "type": "image",
+      "color": "#3498db",
+      "x": 969.3295884979391,
+      "y": 574.1581043005459,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 58,
+      "name": "v1/objects/transaction-types",
+      "type": "",
+      "color": "#3498db",
+      "x": -573.9642686628647,
+      "y": 224.27852426106364,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 59,
+      "name": "Get Transaction Types",
+      "type": "image",
+      "color": "#3498db",
+      "x": -374.1528661683165,
+      "y": 250.5796436866093,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 60,
+      "name": "Transactions_Types",
+      "type": "process",
+      "color": "#e51400",
+      "x": 241.62933131712873,
+      "y": 290.0694235193881,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 61,
+      "name": "Transactions_Types",
+      "type": "process",
+      "color": "#e51400",
+      "x": 564.4621959581431,
+      "y": 293.3229993725734,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 62,
+      "name": "Get Transaction Types",
+      "type": "image",
+      "color": "#3498db",
+      "x": 47.24101872577875,
+      "y": 274.0357218204617,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 63,
+      "name": "Get Transaction TYpes",
+      "type": "image",
+      "color": "#3498db",
+      "x": 431.71636305266696,
+      "y": 292.66541946818006,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 64,
+      "name": "v1/objects/general-ledger-transactions?companyId=",
+      "type": "",
+      "color": "#3498db",
+      "x": 569.3318314326548,
+      "y": -546.3002732624178,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 65,
+      "name": "MemoryDate",
+      "type": "process",
+      "color": "#e51400",
+      "x": 914.9379641639747,
+      "y": -725.1865985266603,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 66,
+      "name": "General_ledger_merged.json\"",
+      "type": "hexagon",
+      "color": "#FFCD28",
+      "x": 841.1119635337184,
+      "y": -311.5466479373947,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 67,
+      "name": "General_ledger_merged.json\"",
+      "type": "hexagon",
+      "color": "#FFCD28",
+      "x": 751.2059358717567,
+      "y": -429.11287926823553,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 68,
+      "name": "Update General Ledger",
+      "type": "image",
+      "color": "#3498db",
+      "x": 665.8902779032252,
+      "y": -326.0752426283183,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 69,
+      "name": "Update General Ledger",
+      "type": "image",
+      "color": "#3498db",
+      "x": 579.0878434551134,
+      "y": -435.9625499181519,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 70,
+      "name": "Update General Ledger",
+      "type": "image",
+      "color": "#3498db",
+      "x": 726.060191691757,
+      "y": -678.8952056264507,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 71,
+      "name": "General_Ledger",
+      "type": "process",
+      "color": "#e51400",
+      "x": 1209.0321718069135,
+      "y": -276.71148454640223,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 72,
+      "name": "General_Ledger",
+      "type": "process",
+      "color": "#e51400",
+      "x": 1583.3812933137942,
+      "y": -285.21138351989583,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 73,
+      "name": "General Ledger to gold",
+      "type": "image",
+      "color": "#3498db",
+      "x": 1394.2241637729894,
+      "y": -281.4596107708939,
+      "definition": "",
+      "comments": [],
+      "tags": []
+    }
+  ],
+  "links": [
+    {
+      "id": 0,
+      "sourceId": 14,
+      "targetId": 12,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 1,
+      "sourceId": 12,
+      "targetId": 10,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 2,
+      "sourceId": 11,
+      "targetId": 13,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "sourceId": 13,
+      "targetId": 14,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 4,
+      "sourceId": 20,
+      "targetId": 3,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "sourceId": 21,
+      "targetId": 22,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 6,
+      "sourceId": 12,
+      "targetId": 16,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 7,
+      "sourceId": 15,
+      "targetId": 16,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 8,
+      "sourceId": 16,
+      "targetId": 20,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 9,
+      "sourceId": 16,
+      "targetId": 21,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 10,
+      "sourceId": 25,
+      "targetId": 23,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 11,
+      "sourceId": 3,
+      "targetId": 25,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 12,
+      "sourceId": 22,
+      "targetId": 25,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 13,
+      "sourceId": 27,
+      "targetId": 23,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 14,
+      "sourceId": 41,
+      "targetId": 40,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 15,
+      "sourceId": 26,
+      "targetId": 49,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 16,
+      "sourceId": 10,
+      "targetId": 23,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 17,
+      "sourceId": 26,
+      "targetId": 27,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 18,
+      "sourceId": 31,
+      "targetId": 30,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 19,
+      "sourceId": 32,
+      "targetId": 9,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 20,
+      "sourceId": 28,
+      "targetId": 31,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 21,
+      "sourceId": 30,
+      "targetId": 32,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 22,
+      "sourceId": 34,
+      "targetId": 33,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 23,
+      "sourceId": 9,
+      "targetId": 34,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 24,
+      "sourceId": 38,
+      "targetId": 36,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 25,
+      "sourceId": 39,
+      "targetId": 26,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 26,
+      "sourceId": 35,
+      "targetId": 38,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 27,
+      "sourceId": 36,
+      "targetId": 39,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 28,
+      "sourceId": 26,
+      "targetId": 41,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 29,
+      "sourceId": 46,
+      "targetId": 45,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 30,
+      "sourceId": 44,
+      "targetId": 42,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 31,
+      "sourceId": 43,
+      "targetId": 44,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 32,
+      "sourceId": 42,
+      "targetId": 46,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 33,
+      "sourceId": 48,
+      "targetId": 47,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 34,
+      "sourceId": 50,
+      "targetId": 49,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 35,
+      "sourceId": 47,
+      "targetId": 50,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 36,
+      "sourceId": 45,
+      "targetId": 48,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 37,
+      "sourceId": 10,
+      "targetId": 49,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 38,
+      "sourceId": 52,
+      "targetId": 17,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 39,
+      "sourceId": 53,
+      "targetId": 5,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 40,
+      "sourceId": 51,
+      "targetId": 52,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 41,
+      "sourceId": 17,
+      "targetId": 53,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 42,
+      "sourceId": 57,
+      "targetId": 55,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 43,
+      "sourceId": 56,
+      "targetId": 54,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 44,
+      "sourceId": 5,
+      "targetId": 56,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 45,
+      "sourceId": 54,
+      "targetId": 57,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 46,
+      "sourceId": 59,
+      "targetId": 6,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 47,
+      "sourceId": 58,
+      "targetId": 59,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 48,
+      "sourceId": 63,
+      "targetId": 61,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 49,
+      "sourceId": 62,
+      "targetId": 60,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 50,
+      "sourceId": 6,
+      "targetId": 62,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 51,
+      "sourceId": 63,
+      "targetId": 61,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 52,
+      "sourceId": 60,
+      "targetId": 63,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 53,
+      "sourceId": 70,
+      "targetId": 65,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 54,
+      "sourceId": 68,
+      "targetId": 66,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 55,
+      "sourceId": 69,
+      "targetId": 67,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 56,
+      "sourceId": 24,
+      "targetId": 71,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 57,
+      "sourceId": 67,
+      "targetId": 66,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 58,
+      "sourceId": 64,
+      "targetId": 68,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 59,
+      "sourceId": 64,
+      "targetId": 69,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 60,
+      "sourceId": 64,
+      "targetId": 70,
+      "name": "",
+      "type": "",
+      "color": "#2c3e50",
+      "comments": []
+    },
+    {
+      "id": 61,
+      "sourceId": 73,
+      "targetId": 72,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 62,
+      "sourceId": 66,
+      "targetId": 24,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    },
+    {
+      "id": 63,
+      "sourceId": 71,
+      "targetId": 73,
+      "name": "",
+      "type": "",
+      "color": "#000000",
+      "comments": []
+    }
+  ],
+  "nextNodeId": 74,
+  "nextLinkId": 64,
+  "globalTags": [],
+  "nodeRadius": 30,
+  "selectedLogo": "1779965927306"
+}

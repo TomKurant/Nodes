@@ -1,0 +1,842 @@
+{
+  "nodes": [
+    {
+      "id": 5,
+      "name": "Companies",
+      "type": "",
+      "color": "#db3333",
+      "x": -442.3962273323893,
+      "y": 241.21268964547738,
+      "comments": [
+        {
+          "text": "'about_us', 'address', 'address2', 'annualrevenue', 'city', 'closedate', 'company_type', 'country', 'country_dropdown', 'createdate', 'days_to_close', 'description', 'domain', 'engagements_last_meeting_booked', 'engagements_last_meeting_booked_campaign', 'engagements_last_meeting_booked_medium', 'engagements_last_meeting_booked_source', 'facebook_company_page', 'facebookfans', 'fc_brreg_aarsresultat', 'fc_brreg_aarsresultat_2023', 'fc_brreg_aarsresultat_2024', 'fc_brreg_aarsresultat_prosent_endring', 'fc_brreg_aktivitet', 'fc_brreg_antall_aksjer_2023', 'fc_brreg_antall_aksjonaerer_2023', 'fc_brreg_antallansatte', 'fc_brreg_arbeidskapital', 'fc_brreg_arbeidskapital_2023', 'fc_brreg_arbeidskapital_2024', 'fc_brreg_arbeidskapital_prosent_endring', 'fc_brreg_driftsinntekter', 'fc_brreg_driftsinntekter_2023', 'fc_brreg_driftsinntekter_2024', 'fc_brreg_driftsinntekter_prosent_endring', 'fc_brreg_egenkapitalgrad', 'fc_brreg_egenkapitalgrad_2023', 'fc_brreg_egenkapitalgrad_2024', 'fc_brreg_egenkapitalgrad_prosent_endring', 'fc_brreg_epostadresse', 'fc_brreg_forretningsadresse_adresse_linje_1', 'fc_brreg_forretningsadresse_adresse_linje_2', 'fc_brreg_forretningsadresse_fylke', 'fc_brreg_forretningsadresse_kommune', 'fc_brreg_forretningsadresse_kommunenummer', 'fc_brreg_forretningsadresse_land', 'fc_brreg_forretningsadresse_landkode', 'fc_brreg_forretningsadresse_postnummer', 'fc_brreg_forretningsadresse_poststed', 'fc_brreg_hjemmeside', 'fc_brreg_konkurs', 'fc_brreg_last_updated', 'fc_brreg_mobil', 'fc_brreg_naeringskode', 'fc_brreg_naeringskode_beskrivelse', 'fc_brreg_naeringskode_kode', 'fc_brreg_navn', 'fc_brreg_organisasjonsform_beskrivelse', 'fc_brreg_organisasjonsnummer', 'fc_brreg_overordnetenhet', 'fc_brreg_postadresse_adresse_linje_1', 'fc_brreg_postadresse_adresse_linje_2', 'fc_brreg_postadresse_fylke', 'fc_brreg_postadresse_kommune', 'fc_brreg_postadresse_kommunenummer', 'fc_brreg_postadresse_land', 'fc_brreg_postadresse_landkode', 'fc_brreg_postadresse_postnummer', 'fc_brreg_postadresse_poststed', 'fc_brreg_registrert_i_foretaksregisteret', 'fc_brreg_registrert_i_frivillighetsregisteret', 'fc_brreg_registrert_i_stiftelsesregisteret', 'fc_brreg_regnskapsforer_count', 'fc_brreg_regnskapsvaluta', 'fc_brreg_revisor_count', 'fc_brreg_roller_daglig_leder', 'fc_brreg_roller_regnskapsforer_navn', 'fc_brreg_roller_regnskapsforer_orgnr', 'fc_brreg_roller_revisor_navn', 'fc_brreg_roller_revisor_orgnr', 'fc_brreg_roller_styre_leder', 'fc_brreg_siste_innsendte_aarsregnskap', 'fc_brreg_slettedato', 'fc_brreg_stiftelsesdato', 'fc_brreg_sum_driftsresultat', 'fc_brreg_sum_driftsresultat_2023', 'fc_brreg_sum_driftsresultat_2024', 'fc_brreg_sum_driftsresultat_prosent_endring', 'fc_brreg_sum_egenkapital', 'fc_brreg_sum_egenkapital_2023', 'fc_brreg_sum_egenkapital_2024', 'fc_brreg_sum_egenkapital_prosent_endring', 'fc_brreg_telefon', 'fc_brreg_under_avvikling', 'fc_brreg_under_tvangsavvikling_eller_tvangsopplosning', 'fc_brreg_vedtekst_formaal', 'fc_brreg_vedtekstdato', 'first_contact_createdate', 'first_contact_createdate_timestamp_earliest_value_78b50eea', 'first_conversion_date', 'first_conversion_event_name', 'first_deal_created_date', 'founded_year', 'googleplus_page', 'hs_additional_domains', 'hs_all_accessible_team_ids', 'hs_all_assigned_business_unit_ids', 'hs_all_owner_ids', 'hs_all_team_ids', 'hs_analytics_first_timestamp', 'hs_analytics_first_touch_converting_campaign', 'hs_analytics_first_visit_timestamp', 'hs_analytics_last_timestamp', 'hs_analytics_last_timestamp_timestamp_latest_value_4e16365a', 'hs_analytics_last_touch_converting_campaign', 'hs_analytics_last_touch_converting_campaign_timestamp_latest_value_81a64e30', 'hs_analytics_last_visit_timestamp', 'hs_analytics_last_visit_timestamp_timestamp_latest_value_999a0fce', 'hs_analytics_latest_source', 'hs_analytics_latest_source_data_1', 'hs_analytics_latest_source_data_2', 'hs_analytics_latest_source_timestamp', 'hs_analytics_num_page_views', 'hs_analytics_num_page_views_cardinality_sum_e46e85b0', 'hs_analytics_num_visits', 'hs_analytics_num_visits_cardinality_sum_53d952a6', 'hs_analytics_source', 'hs_analytics_source_data_1', 'hs_analytics_source_data_2', 'hs_annual_revenue_currency_code', 'hs_avatar_filemanager_key', 'hs_calculated_phone_number', 'hs_count_intent_signals_created_last_14_days', 'hs_count_intent_signals_created_last_30_days', 'hs_count_intent_signals_created_last_7_days', 'hs_country_code', 'hs_created_by_user_id', 'hs_createdate', 'hs_csm_sentiment', 'hs_current_customer', 'hs_customer_success_ticket_sentiment', 'hs_date_entered_4984070343', 'hs_date_entered_5042920649', 'hs_date_entered_5267271921', 'hs_date_entered_customer', 'hs_date_entered_evangelist', 'hs_date_entered_lead', 'hs_date_entered_marketingqualifiedlead', 'hs_date_entered_opportunity', 'hs_date_entered_other', 'hs_date_entered_salesqualifiedlead', 'hs_date_entered_subscriber', 'hs_date_exited_4984070343', 'hs_date_exited_5042920649', 'hs_date_exited_5267271921', 'hs_date_exited_customer', 'hs_date_exited_evangelist', 'hs_date_exited_lead', 'hs_date_exited_marketingqualifiedlead', 'hs_date_exited_opportunity', 'hs_date_exited_other', 'hs_date_exited_salesqualifiedlead', 'hs_date_exited_subscriber', 'hs_employee_range', 'hs_excluded_from_cross_account_data_mirroring', 'hs_gps_error', 'hs_gps_latitude', 'hs_gps_longitude', 'hs_ideal_customer_profile', 'hs_industry_group', 'hs_inferred_domain', 'hs_intent_page_views_last_30_days', 'hs_intent_paid_up_to_date', 'hs_intent_signals_enabled', 'hs_intent_visitors_last_30_days', 'hs_is_enriched', 'hs_is_intent_monitored', 'hs_is_target_account', 'hs_keywords', 'hs_last_booked_meeting_date', 'hs_last_logged_call_date', 'hs_last_logged_outgoing_email_date', 'hs_last_metered_enrichment_timestamp', 'hs_last_open_task_date', 'hs_last_sales_activity_date', 'hs_last_sales_activity_timestamp', 'hs_last_sales_activity_type', 'hs_lastmodifieddate', 'hs_latest_createdate_of_active_subscriptions', 'hs_latest_intent_signal_timestamp', 'hs_latest_meeting_activity', 'hs_latest_prospecting_agent_monitoring_date', 'hs_latest_suggested_contact_timestamp', 'hs_latitude', 'hs_lead_status', 'hs_linkedin_handle', 'hs_live_enrichment_deadline', 'hs_logo_url', 'hs_longitude', 'hs_max_recommendation_score', 'hs_merged_object_ids', 'hs_most_recent_de_anonymized_visit', 'hs_notes_last_activity', 'hs_notes_next_activity', 'hs_notes_next_activity_type', 'hs_num_blockers', 'hs_num_child_companies', 'hs_num_contacts_with_buying_roles', 'hs_num_decision_makers', 'hs_num_open_deals', 'hs_object_id', 'hs_object_source', 'hs_object_source_detail_1', 'hs_object_source_detail_2', 'hs_object_source_detail_3', 'hs_object_source_id', 'hs_object_source_label', 'hs_object_source_user_id', 'hs_owning_teams', 'hs_paid_for_intent_signals', 'hs_parent_company_id', 'hs_pinned_engagement_id', 'hs_pipeline', 'hs_plays', 'hs_predictivecontactscore_v2', 'hs_predictivecontactscore_v2_next_max_max_d4e58c1e', 'hs_quick_context', 'hs_read_only', 'hs_reason_to_reach_out', 'hs_recent_intent_signals', 'hs_research_agent_execution_id', 'hs_research_agent_id', 'hs_revenue_range', 'hs_sales_email_last_replied', 'hs_searchable_calculated_international_phone_number', 'hs_searchable_calculated_phone_number', 'hs_shared_team_ids', 'hs_shared_user_ids', 'hs_signals_summary', 'hs_source_object_id', 'hs_state_code', 'hs_suggested_contact_count', 'hs_target_account', 'hs_target_account_probability', 'hs_target_account_recommendation_snooze_time', 'hs_target_account_recommendation_state', 'hs_task_label', 'hs_tax_id', 'hs_time_in_4984070343', 'hs_time_in_5042920649', 'hs_time_in_5267271921', 'hs_time_in_customer', 'hs_time_in_evangelist', 'hs_time_in_lead', 'hs_time_in_marketingqualifiedlead', 'hs_time_in_opportunity', 'hs_time_in_other', 'hs_time_in_salesqualifiedlead', 'hs_time_in_subscriber', 'hs_total_deal_value', 'hs_unique_creation_key', 'hs_updated_by_user_id', 'hs_user_ids_of_all_notification_followers', 'hs_user_ids_of_all_notification_unfollowers', 'hs_user_ids_of_all_owners', 'hs_v2_cumulative_time_in_4984070343', 'hs_v2_cumulative_time_in_5042920649', 'hs_v2_cumulative_time_in_5267271921', 'hs_v2_cumulative_time_in_customer', 'hs_v2_cumulative_time_in_lead', 'hs_v2_cumulative_time_in_opportunity', 'hs_v2_cumulative_time_in_other', 'hs_v2_date_entered_4984070343', 'hs_v2_date_entered_5042920649', 'hs_v2_date_entered_5267271921', 'hs_v2_date_entered_current_stage', 'hs_v2_date_entered_customer', 'hs_v2_date_entered_lead', 'hs_v2_date_entered_opportunity', 'hs_v2_date_entered_other', 'hs_v2_date_exited_4984070343', 'hs_v2_date_exited_5042920649', 'hs_v2_date_exited_5267271921', 'hs_v2_date_exited_customer', 'hs_v2_date_exited_lead', 'hs_v2_date_exited_opportunity', 'hs_v2_date_exited_other', 'hs_v2_latest_time_in_4984070343', 'hs_v2_latest_time_in_5042920649', 'hs_v2_latest_time_in_5267271921', 'hs_v2_latest_time_in_customer', 'hs_v2_latest_time_in_lead', 'hs_v2_latest_time_in_opportunity', 'hs_v2_latest_time_in_other', 'hs_v2_time_in_current_stage', 'hs_was_imported', 'hubspot_owner_assigneddate', 'hubspot_owner_id', 'hubspot_team_id', 'hubspotscore', 'industry', 'industry_custom', 'is_public', 'lifecyclestage', 'linkedin_company_page', 'linkedinbio', 'name', 'notes_last_contacted', 'notes_last_updated', 'notes_next_activity_date', 'num_associated_contacts', 'num_associated_deals', 'num_contacted_notes', 'num_conversion_events', 'num_conversion_events_cardinality_sum_d095f14b', 'num_notes', 'numberofemployees', 'organisasjonsnummer', 'owneremail', 'ownername', 'phone', 'recent_conversion_date', 'recent_conversion_date_timestamp_latest_value_72856da1', 'recent_conversion_event_name', 'recent_conversion_event_name_timestamp_latest_value_66c820bf', 'recent_deal_amount', 'recent_deal_close_date', 'stakeholder_type', 'state', 'timezone', 'total_money_raised', 'total_revenue', 'twitterbio', 'twitterfollowers', 'twitterhandle', 'type', 'web_technologies', 'website', 'zip'",
+          "timestamp": "5/4/2026, 12:20:41 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 6,
+      "name": "Contacts",
+      "type": "",
+      "color": "#db3333",
+      "x": -303.7916864381248,
+      "y": 171.21150907527453,
+      "comments": [
+        {
+          "text": "'address', 'annualrevenue', 'associatedcompanyid', 'associatedcompanylastupdated', 'city', 'closedate', 'company', 'company_size', 'country', 'createdate', 'currentlyinworkflow', 'date_of_birth', 'days_to_close', 'degree', 'email', 'engagements_last_meeting_booked', 'engagements_last_meeting_booked_campaign', 'engagements_last_meeting_booked_medium', 'engagements_last_meeting_booked_source', 'fax', 'field_of_study', 'first_conversion_date', 'first_conversion_event_name', 'first_deal_created_date', 'firstname', 'followercount', 'gender', 'graduation_date', 'hs_additional_emails', 'hs_all_accessible_team_ids', 'hs_all_assigned_business_unit_ids', 'hs_all_contact_vids', 'hs_all_owner_ids', 'hs_all_team_ids', 'hs_analytics_average_page_views', 'hs_analytics_first_referrer', 'hs_analytics_first_timestamp', 'hs_analytics_first_touch_converting_campaign', 'hs_analytics_first_url', 'hs_analytics_first_visit_timestamp', 'hs_analytics_last_referrer', 'hs_analytics_last_timestamp', 'hs_analytics_last_touch_converting_campaign', 'hs_analytics_last_url', 'hs_analytics_last_visit_timestamp', 'hs_analytics_num_event_completions', 'hs_analytics_num_page_views', 'hs_analytics_num_visits', 'hs_analytics_revenue', 'hs_analytics_source', 'hs_analytics_source_composite_data', 'hs_analytics_source_data_1', 'hs_analytics_source_data_2', 'hs_associated_target_accounts', 'hs_avatar_filemanager_key', 'hs_bing_ad_clicked', 'hs_bing_click_id', 'hs_buying_role', 'hs_calculated_form_submissions', 'hs_calculated_merged_vids', 'hs_calculated_mobile_number', 'hs_calculated_phone_number', 'hs_calculated_phone_number_area_code', 'hs_calculated_phone_number_country_code', 'hs_calculated_phone_number_region_code', 'hs_chat_assistant_iql_date', 'hs_chat_assistant_source', 'hs_chat_assistant_summary', 'hs_clicked_linkedin_ad', 'hs_contact_creation_legal_basis_source_instance_id', 'hs_contact_enrichment_opt_out', 'hs_contact_enrichment_opt_out_timestamp', 'hs_content_membership_email', 'hs_content_membership_email_confirmed', 'hs_content_membership_follow_up_enqueued_at', 'hs_content_membership_notes', 'hs_content_membership_registered_at', 'hs_content_membership_registration_domain_sent_to', 'hs_content_membership_registration_email_sent_at', 'hs_content_membership_status', 'hs_conversations_visitor_email', 'hs_count_is_unworked', 'hs_count_is_worked', 'hs_country_region_code', 'hs_created_by_conversations', 'hs_created_by_user_id', 'hs_createdate', 'hs_cross_account_note', 'hs_cross_sell_opportunity', 'hs_current_customer', 'hs_currently_enrolled_in_prospecting_agent', 'hs_customer_agent_lead_status', 'hs_data_privacy_ads_consent', 'hs_document_last_revisited', 'hs_email_bad_address', 'hs_email_bounce', 'hs_email_click', 'hs_email_customer_quarantined_reason', 'hs_email_delivered', 'hs_email_domain', 'hs_email_first_click_date', 'hs_email_first_open_date', 'hs_email_first_reply_date', 'hs_email_first_send_date', 'hs_email_hard_bounce_reason', 'hs_email_hard_bounce_reason_enum', 'hs_email_is_ineligible', 'hs_email_last_click_date', 'hs_email_last_email_name', 'hs_email_last_open_date', 'hs_email_last_reply_date', 'hs_email_last_send_date', 'hs_email_live_sourcing_restricted', 'hs_email_open', 'hs_email_optimal_send_day_of_week', 'hs_email_optimal_send_time_of_day', 'hs_email_optout', 'hs_email_optout_2182832021', 'hs_email_optout_2182832024', 'hs_email_optout_2274106989', 'hs_email_optout_2276907174', 'hs_email_quarantined', 'hs_email_quarantined_reason', 'hs_email_recipient_fatigue_recovery_time', 'hs_email_replied', 'hs_email_sends_since_last_engagement', 'hs_email_type', 'hs_emailconfirmationstatus', 'hs_employment_change_detected_date', 'hs_enriched_email_bounce_detected', 'hs_excluded_from_cross_account_data_mirroring', 'hs_facebook_ad_clicked', 'hs_facebook_click_id', 'hs_facebookid', 'hs_feedback_last_ces_survey_date', 'hs_feedback_last_ces_survey_follow_up', 'hs_feedback_last_ces_survey_rating', 'hs_feedback_last_csat_survey_date', 'hs_feedback_last_csat_survey_follow_up', 'hs_feedback_last_csat_survey_rating', 'hs_feedback_last_nps_follow_up', 'hs_feedback_last_nps_rating', 'hs_feedback_last_nps_rating_number', 'hs_feedback_last_survey_date', 'hs_feedback_show_nps_web_survey', 'hs_first_closed_order_id', 'hs_first_engagement_object_id', 'hs_first_order_closed_date', 'hs_first_outreach_date', 'hs_first_subscription_create_date', 'hs_full_name_or_email', 'hs_geohash_1', 'hs_geohash_2', 'hs_geohash_3', 'hs_geohash_4', 'hs_geohash_5', 'hs_geohash_6', 'hs_google_click_id', 'hs_googleplusid', 'hs_gps_error', 'hs_gps_latitude', 'hs_gps_longitude', 'hs_has_active_subscription', 'hs_inferred_language_codes', 'hs_intent_paid_up_to_date', 'hs_intent_signals_enabled', 'hs_ip_timezone', 'hs_is_contact', 'hs_is_enriched', 'hs_is_merge_revertible', 'hs_is_unworked', 'hs_job_change_detected_date', 'hs_journey_stage', 'hs_language', 'hs_last_metered_enrichment_timestamp', 'hs_last_sales_activity_date', 'hs_last_sales_activity_timestamp', 'hs_last_sales_activity_type', 'hs_last_sms_send_date', 'hs_last_sms_send_name', 'hs_lastmodifieddate', 'hs_latest_disqualified_lead_date', 'hs_latest_meeting_activity', 'hs_latest_open_lead_date', 'hs_latest_qualified_lead_date', 'hs_latest_sequence_ended_date', 'hs_latest_sequence_enrolled', 'hs_latest_sequence_enrolled_date', 'hs_latest_sequence_finished_date', 'hs_latest_sequence_unenrolled_date', 'hs_latest_source', 'hs_latest_source_composite_data', 'hs_latest_source_data_1', 'hs_latest_source_data_2', 'hs_latest_source_timestamp', 'hs_latest_subscription_create_date', 'hs_latitude', 'hs_lead_status', 'hs_legal_basis', 'hs_linkedin_ad_clicked', 'hs_linkedin_click_id', 'hs_linkedin_url', 'hs_linkedinid', 'hs_live_enrichment_deadline', 'hs_longitude', 'hs_manual_campaign_ids', 'hs_marketable_reason_id', 'hs_marketable_reason_type', 'hs_marketable_status', 'hs_marketable_until_renewal', 'hs_membership_has_accessed_private_content', 'hs_membership_last_private_content_access_date', 'hs_merged_object_ids', 'hs_messaging_engagement_score', 'hs_mobile_sdk_push_tokens', 'hs_notes_last_activity', 'hs_notes_next_activity', 'hs_notes_next_activity_type', 'hs_object_id', 'hs_object_source', 'hs_object_source_detail_1', 'hs_object_source_detail_2', 'hs_object_source_detail_3', 'hs_object_source_id', 'hs_object_source_label', 'hs_object_source_user_id', 'hs_owning_teams', 'hs_persona', 'hs_pinned_engagement_id', 'hs_pipeline', 'hs_predictivecontactscore', 'hs_predictivecontactscore_v2', 'hs_predictivecontactscorebucket', 'hs_predictivescoringtier', 'hs_prospecting_agent_actively_enrolled_count', 'hs_prospecting_agent_last_enrolled', 'hs_prospecting_agent_total_enrolled_count', 'hs_quarantined_emails', 'hs_read_only', 'hs_recent_closed_order_date', 'hs_registered_member', 'hs_registration_method', 'hs_returning_to_office_detected_date', 'hs_role', 'hs_sa_first_engagement_date', 'hs_sa_first_engagement_descr', 'hs_sa_first_engagement_object_type', 'hs_sales_email_last_clicked', 'hs_sales_email_last_opened', 'hs_sales_email_last_replied', 'hs_searchable_calculated_international_mobile_number', 'hs_searchable_calculated_international_phone_number', 'hs_searchable_calculated_mobile_number', 'hs_searchable_calculated_phone_number', 'hs_seniority', 'hs_sequences_actively_enrolled_count', 'hs_sequences_enrolled_count', 'hs_sequences_is_enrolled', 'hs_shared_team_ids', 'hs_shared_user_ids', 'hs_social_facebook_clicks', 'hs_social_google_plus_clicks', 'hs_social_last_engagement', 'hs_social_linkedin_clicks', 'hs_social_num_broadcast_clicks', 'hs_social_twitter_clicks', 'hs_source_object_id', 'hs_source_portal_id', 'hs_state_code', 'hs_sub_role', 'hs_testpurge', 'hs_testrollback', 'hs_tiktok_ad_clicked', 'hs_tiktok_click_id', 'hs_time_between_contact_creation_and_deal_close', 'hs_time_between_contact_creation_and_deal_creation', 'hs_time_to_first_engagement', 'hs_time_to_move_from_lead_to_customer', 'hs_time_to_move_from_marketingqualifiedlead_to_customer', 'hs_time_to_move_from_opportunity_to_customer', 'hs_time_to_move_from_salesqualifiedlead_to_customer', 'hs_time_to_move_from_subscriber_to_customer', 'hs_timezone', 'hs_twitterid', 'hs_unique_creation_key', 'hs_updated_by_user_id', 'hs_user_ids_of_all_notification_followers', 'hs_user_ids_of_all_notification_unfollowers', 'hs_user_ids_of_all_owners', 'hs_v2_cumulative_time_in_4984070343', 'hs_v2_cumulative_time_in_5042920649', 'hs_v2_cumulative_time_in_5267271921', 'hs_v2_cumulative_time_in_customer', 'hs_v2_cumulative_time_in_lead', 'hs_v2_cumulative_time_in_opportunity', 'hs_v2_cumulative_time_in_other', 'hs_v2_date_entered_4984070343', 'hs_v2_date_entered_5042920649', 'hs_v2_date_entered_5267271921', 'hs_v2_date_entered_current_stage', 'hs_v2_date_entered_customer', 'hs_v2_date_entered_lead', 'hs_v2_date_entered_opportunity', 'hs_v2_date_entered_other', 'hs_v2_date_exited_4984070343', 'hs_v2_date_exited_5042920649', 'hs_v2_date_exited_5267271921', 'hs_v2_date_exited_customer', 'hs_v2_date_exited_lead', 'hs_v2_date_exited_opportunity', 'hs_v2_date_exited_other', 'hs_v2_latest_time_in_4984070343', 'hs_v2_latest_time_in_5042920649', 'hs_v2_latest_time_in_5267271921', 'hs_v2_latest_time_in_customer', 'hs_v2_latest_time_in_lead', 'hs_v2_latest_time_in_opportunity', 'hs_v2_latest_time_in_other', 'hs_v2_time_in_current_stage', 'hs_was_imported', 'hs_whatsapp_phone_number', 'hubspot_owner_assigneddate', 'hubspot_owner_id', 'hubspot_team_id', 'hubspotscore', 'industry', 'ip_city', 'ip_country', 'ip_country_code', 'ip_latlon', 'ip_state', 'ip_state_code', 'ip_zipcode', 'job_function', 'jobtitle', 'kloutscoregeneral', 'lastmodifieddate', 'lastname', 'lifecyclestage', 'linkedinbio', 'linkedinconnections', 'marital_status', 'message', 'military_status', 'mobilephone', 'notes_last_contacted', 'notes_last_updated', 'notes_next_activity_date', 'num_associated_deals', 'num_contacted_notes', 'num_conversion_events', 'num_notes', 'num_unique_conversion_events', 'numemployees', 'owneremail', 'ownername', 'phone', 'photo', 'recent_conversion_date', 'recent_conversion_event_name', 'recent_deal_amount', 'recent_deal_close_date', 'relationship_status', 'salutation', 'school', 'seniority', 'start_date', 'state', 'surveymonkeyeventlastupdated', 'total_revenue', 'twitterbio', 'twitterhandle', 'twitterprofilephoto', 'webinareventlastupdated', 'website', 'work_email', 'zip'",
+          "timestamp": "5/4/2026, 12:16:23 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 8,
+      "name": "Deals",
+      "type": "",
+      "color": "#db3333",
+      "x": 7,
+      "y": -60.5625,
+      "comments": [
+        {
+          "text": "'agreement_end_date', 'agreement_start_date', 'agreement_type', 'amount', 'amount_in_home_currency', 'amount_kg', 'closed_lost_reason', 'closed_won_reason', 'closedate', 'contracted_volume__year_tonnes', 'createdate', 'days_to_close', 'deal_currency_code', 'dealname', 'dealstage', 'dealtype', 'description', 'engagements_last_meeting_booked', 'engagements_last_meeting_booked_campaign', 'engagements_last_meeting_booked_medium', 'engagements_last_meeting_booked_source', 'feedback_received_date', 'hs_actual_duration', 'hs_acv', 'hs_all_accessible_team_ids', 'hs_all_assigned_business_unit_ids', 'hs_all_collaborator_owner_ids', 'hs_all_deal_split_owner_ids', 'hs_all_owner_ids', 'hs_all_team_ids', 'hs_analytics_latest_source', 'hs_analytics_latest_source_company', 'hs_analytics_latest_source_contact', 'hs_analytics_latest_source_data_1', 'hs_analytics_latest_source_data_1_company', 'hs_analytics_latest_source_data_1_contact', 'hs_analytics_latest_source_data_2', 'hs_analytics_latest_source_data_2_company', 'hs_analytics_latest_source_data_2_contact', 'hs_analytics_latest_source_timestamp', 'hs_analytics_latest_source_timestamp_company', 'hs_analytics_latest_source_timestamp_contact', 'hs_analytics_source', 'hs_analytics_source_data_1', 'hs_analytics_source_data_2', 'hs_arr', 'hs_associated_deal_registration_deal_type', 'hs_associated_deal_registration_product_interests', 'hs_attributed_team_ids', 'hs_average_call_duration', 'hs_average_deal_owner_duration_in_current_stage', 'hs_campaign', 'hs_closed_amount', 'hs_closed_amount_in_home_currency', 'hs_closed_deal_close_date', 'hs_closed_deal_create_date', 'hs_closed_won_count', 'hs_closed_won_date', 'hs_created_by_user_id', 'hs_createdate', 'hs_cross_account_note', 'hs_cross_sell_opportunity', 'hs_days_to_close_raw', 'hs_deal_amount_calculation_preference', 'hs_deal_registration_mrr', 'hs_deal_registration_mrr_currency_code', 'hs_deal_score', 'hs_deal_stage_probability', 'hs_deal_stage_probability_shadow', 'hs_exchange_rate', 'hs_forecast_amount', 'hs_forecast_probability', 'hs_form_id', 'hs_has_empty_conditional_stage_properties', 'hs_has_last_conversation_follow_ups', 'hs_has_last_meeting_followups', 'hs_is_active_shared_deal', 'hs_is_closed', 'hs_is_closed_count', 'hs_is_closed_lost', 'hs_is_closed_won', 'hs_is_deal_split', 'hs_is_in_first_deal_stage', 'hs_is_open_count', 'hs_is_stalled', 'hs_is_stalled_after_timestamp', 'hs_last_call_id_with_followups', 'hs_last_conversation_with_followups_object_coordinates', 'hs_last_gs_shared_message', 'hs_last_meeting_id_with_followups', 'hs_last_partner_shared_message_date', 'hs_last_shared_message_create_date', 'hs_lastmodifieddate', 'hs_latest_approval_status', 'hs_latest_approval_status_approval_id', 'hs_latest_marketing_email_click_date', 'hs_latest_marketing_email_open_date', 'hs_latest_marketing_email_reply_date', 'hs_latest_meeting_activity', 'hs_latest_sales_email_click_date', 'hs_latest_sales_email_open_date', 'hs_latest_sales_email_reply_date', 'hs_likelihood_to_close', 'hs_line_item_context_id', 'hs_line_item_global_term_hs_discount_percentage', 'hs_line_item_global_term_hs_discount_percentage_enabled', 'hs_line_item_global_term_hs_recurring_billing_period', 'hs_line_item_global_term_hs_recurring_billing_period_enabled', 'hs_line_item_global_term_hs_recurring_billing_start_date', 'hs_line_item_global_term_hs_recurring_billing_start_date_enabled', 'hs_line_item_global_term_recurringbillingfrequency', 'hs_line_item_global_term_recurringbillingfrequency_enabled', 'hs_manual_campaign_ids', 'hs_manual_forecast_category', 'hs_merged_object_ids', 'hs_mrr', 'hs_net_pipeline_impact', 'hs_next_meeting_id', 'hs_next_meeting_name', 'hs_next_meeting_start_time', 'hs_next_step', 'hs_next_step_updated_at', 'hs_notes_last_activity', 'hs_notes_next_activity', 'hs_notes_next_activity_type', 'hs_num_associated_active_deal_registrations', 'hs_num_associated_deal_registrations', 'hs_num_associated_deal_splits', 'hs_num_of_associated_line_items', 'hs_num_target_accounts', 'hs_number_of_call_engagements', 'hs_number_of_inbound_calls', 'hs_number_of_outbound_calls', 'hs_number_of_overdue_tasks', 'hs_number_of_scheduled_meetings', 'hs_object_id', 'hs_object_source', 'hs_object_source_detail_1', 'hs_object_source_detail_2', 'hs_object_source_detail_3', 'hs_object_source_id', 'hs_object_source_label', 'hs_object_source_user_id', 'hs_open_amount_in_home_currency', 'hs_open_deal_create_date', 'hs_owning_teams', 'hs_partner_tech_win', 'hs_pinned_engagement_id', 'hs_predicted_amount', 'hs_predicted_amount_in_home_currency', 'hs_primary_associated_company', 'hs_primary_quote_data_updated_at', 'hs_priority', 'hs_projected_amount', 'hs_projected_amount_in_home_currency', 'hs_read_only', 'hs_sales_email_last_replied', 'hs_shared_team_ids', 'hs_shared_user_ids', 'hs_source_object_id', 'hs_submission_idempotent_id', 'hs_synced_deal_owner_name_and_email', 'hs_tag_ids', 'hs_tcv', 'hs_unique_creation_key', 'hs_updated_by_user_id', 'hs_user_ids_of_all_notification_followers', 'hs_user_ids_of_all_notification_unfollowers', 'hs_user_ids_of_all_owners', 'hs_v2_cumulative_time_in_5041272009', 'hs_v2_cumulative_time_in_5041272010', 'hs_v2_cumulative_time_in_5041272011', 'hs_v2_cumulative_time_in_5041272012', 'hs_v2_cumulative_time_in_5041272013', 'hs_v2_cumulative_time_in_5041272015', 'hs_v2_cumulative_time_in_appointmentscheduled', 'hs_v2_cumulative_time_in_closedlost', 'hs_v2_cumulative_time_in_closedwon', 'hs_v2_cumulative_time_in_contractsent', 'hs_v2_cumulative_time_in_decisionmakerboughtin', 'hs_v2_cumulative_time_in_presentationscheduled', 'hs_v2_cumulative_time_in_qualifiedtobuy', 'hs_v2_date_entered_5041272009', 'hs_v2_date_entered_5041272010', 'hs_v2_date_entered_5041272011', 'hs_v2_date_entered_5041272012', 'hs_v2_date_entered_5041272013', 'hs_v2_date_entered_5041272015', 'hs_v2_date_entered_appointmentscheduled', 'hs_v2_date_entered_closedlost', 'hs_v2_date_entered_closedwon', 'hs_v2_date_entered_contractsent', 'hs_v2_date_entered_current_stage', 'hs_v2_date_entered_decisionmakerboughtin', 'hs_v2_date_entered_presentationscheduled', 'hs_v2_date_entered_qualifiedtobuy', 'hs_v2_date_exited_5041272009', 'hs_v2_date_exited_5041272010', 'hs_v2_date_exited_5041272011', 'hs_v2_date_exited_5041272012', 'hs_v2_date_exited_5041272013', 'hs_v2_date_exited_5041272015', 'hs_v2_date_exited_appointmentscheduled', 'hs_v2_date_exited_closedlost', 'hs_v2_date_exited_closedwon', 'hs_v2_date_exited_contractsent', 'hs_v2_date_exited_decisionmakerboughtin', 'hs_v2_date_exited_presentationscheduled', 'hs_v2_date_exited_qualifiedtobuy', 'hs_v2_latest_time_in_5041272009', 'hs_v2_latest_time_in_5041272010', 'hs_v2_latest_time_in_5041272011', 'hs_v2_latest_time_in_5041272012', 'hs_v2_latest_time_in_5041272013', 'hs_v2_latest_time_in_5041272015', 'hs_v2_latest_time_in_appointmentscheduled', 'hs_v2_latest_time_in_closedlost', 'hs_v2_latest_time_in_closedwon', 'hs_v2_latest_time_in_contractsent', 'hs_v2_latest_time_in_decisionmakerboughtin', 'hs_v2_latest_time_in_presentationscheduled', 'hs_v2_latest_time_in_qualifiedtobuy', 'hs_v2_time_in_current_stage', 'hs_was_imported', 'hs_weighted_pipeline_in_company_currency', 'hubspot_owner_assigneddate', 'hubspot_owner_id', 'hubspot_team_id', 'incoterms_or_delivery_terms', 'notes_last_contacted', 'notes_last_updated', 'notes_next_activity_date', 'num_associated_contacts', 'num_contacted_notes', 'num_notes', 'pipeline', 'price_per_tonne', 'product_type', 'production_lab', 'recipe', 'sample_customer_feedback', 'sample_id', 'sample_lost_reason', 'sample_send_date'",
+          "timestamp": "5/4/2026, 12:22:16 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 9,
+      "name": "Line Items",
+      "type": "",
+      "color": "#db3333",
+      "x": 478,
+      "y": 49.4375,
+      "comments": [
+        {
+          "text": "'amount', 'createdate', 'description', 'discount', 'hs_acv', 'hs_all_accessible_team_ids', 'hs_all_assigned_business_unit_ids', 'hs_all_owner_ids', 'hs_all_team_ids', 'hs_allow_buyer_selected_quantity', 'hs_arr', 'hs_auto_tax_amount', 'hs_billing_cycle_anchor_date', 'hs_billing_period_end_date', 'hs_billing_period_start_date', 'hs_billing_start_delay_days', 'hs_billing_start_delay_months', 'hs_billing_start_delay_type', 'hs_bundle_id', 'hs_buyer_selected_quantity_max', 'hs_buyer_selected_quantity_min', 'hs_cost_of_goods_sold', 'hs_created_by_user_id', 'hs_createdate', 'hs_discount_percentage', 'hs_effective_unit_price', 'hs_exchange_rate', 'hs_external_id', 'hs_external_tax_rate_id', 'hs_group_key', 'hs_has_prorating_leading', 'hs_has_prorating_trailing', 'hs_images', 'hs_is_editable_price', 'hs_is_optional', 'hs_is_parent', 'hs_lastmodifieddate', 'hs_line_item_currency_code', 'hs_line_item_group_config_id', 'hs_line_item_group_instance_key', 'hs_locked', 'hs_margin', 'hs_margin_acv', 'hs_margin_arr', 'hs_margin_mrr', 'hs_margin_tcv', 'hs_merged_object_ids', 'hs_mrr', 'hs_num_child_line_items', 'hs_object_id', 'hs_object_source', 'hs_object_source_detail_1', 'hs_object_source_detail_2', 'hs_object_source_detail_3', 'hs_object_source_id', 'hs_object_source_label', 'hs_object_source_user_id', 'hs_origin_key', 'hs_owning_teams', 'hs_parent_line_item_id', 'hs_parent_object_type_id', 'hs_pinned_engagement_id', 'hs_position_on_quote', 'hs_post_tax_amount', 'hs_pre_discount_amount', 'hs_price_book_id', 'hs_pricing_model', 'hs_product_id', 'hs_product_type', 'hs_prorating_leading_amount', 'hs_prorating_leading_end_date', 'hs_prorating_leading_post_tax_amount', 'hs_prorating_leading_scale', 'hs_prorating_leading_start_date', 'hs_prorating_leading_tax_amount', 'hs_prorating_leading_term_length', 'hs_prorating_scale', 'hs_prorating_trailing_amount', 'hs_prorating_trailing_end_date', 'hs_prorating_trailing_post_tax_amount', 'hs_prorating_trailing_scale', 'hs_prorating_trailing_start_date', 'hs_prorating_trailing_tax_amount', 'hs_prorating_trailing_term_length', 'hs_ramp_key', 'hs_read_only', 'hs_recurring_billing_day_of_month', 'hs_recurring_billing_end_date', 'hs_recurring_billing_number_of_payments', 'hs_recurring_billing_period', 'hs_recurring_billing_start_date', 'hs_recurring_billing_terms', 'hs_rich_text_description', 'hs_shared_team_ids', 'hs_shared_user_ids', 'hs_sku', 'hs_sync_amount', 'hs_tax_amount', 'hs_tax_assessed', 'hs_tax_category', 'hs_tax_label', 'hs_tax_rate', 'hs_tax_rate_group_id', 'hs_tcv', 'hs_term_in_months', 'hs_tier_amount', 'hs_tier_prices', 'hs_tier_ranges', 'hs_total_discount', 'hs_unique_creation_key', 'hs_unscaled_amount', 'hs_unscaled_pre_discount_amount', 'hs_unscaled_total_discount', 'hs_updated_by_user_id', 'hs_url', 'hs_use_prorating', 'hs_user_ids_of_all_notification_followers', 'hs_user_ids_of_all_notification_unfollowers', 'hs_user_ids_of_all_owners', 'hs_variant_id', 'hs_was_imported', 'hubspot_owner_assigneddate', 'hubspot_owner_id', 'hubspot_team_id', 'name', 'price', 'quantity', 'recurringbillingfrequency', 'tax', 'unit'",
+          "timestamp": "5/4/2026, 12:23:00 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 10,
+      "name": "Quotes",
+      "type": "",
+      "color": "#db3333",
+      "x": 185.81705856133865,
+      "y": 220.1425450167714,
+      "comments": [
+        {
+          "text": "'hs_acceptance_method', 'hs_accepted_date', 'hs_all_accessible_team_ids', 'hs_all_assigned_business_unit_ids', 'hs_all_associated_deal_owner_ids', 'hs_all_owner_ids', 'hs_all_team_ids', 'hs_allowed_checkout_fee_ids', 'hs_allowed_payment_methods', 'hs_approval_request_note', 'hs_approver_id', 'hs_archived', 'hs_associated_deal_owner_id', 'hs_automated_reminders_enabled', 'hs_bill_to_details_editability', 'hs_billing_enabled', 'hs_billing_invoice_checkout', 'hs_breeze_edit_count', 'hs_buyer_billing_address', 'hs_buyer_billing_address2', 'hs_buyer_billing_city', 'hs_buyer_billing_country', 'hs_buyer_billing_country_code', 'hs_buyer_billing_state', 'hs_buyer_billing_state_code', 'hs_buyer_billing_zip', 'hs_buyer_tax_id', 'hs_buyer_tax_id_editability', 'hs_change_effective_date', 'hs_change_prorating', 'hs_clickwrap_accepted_by', 'hs_closing_agent_enabled', 'hs_collect_billing_address', 'hs_collect_shipping_address', 'hs_collection_process', 'hs_comments', 'hs_content_id', 'hs_contract_effective_start_date', 'hs_contract_effective_start_date_type', 'hs_contract_effective_start_delayed_by_days', 'hs_contract_effective_start_delayed_by_months', 'hs_cover_letter', 'hs_created_by_user_id', 'hs_createdate', 'hs_currency', 'hs_deal_name', 'hs_dealless_quote', 'hs_display_tcv_on_quote', 'hs_domain', 'hs_enabled_automated_taxes', 'hs_esign_date', 'hs_esign_enabled', 'hs_esign_num_signers_completed', 'hs_esign_num_signers_required', 'hs_esign_reassignment_enabled', 'hs_esign_verification_method', 'hs_executive_summary', 'hs_expiration_date', 'hs_expiration_template_path', 'hs_expired', 'hs_expired_end_of_access_date', 'hs_feedback', 'hs_fees_total', 'hs_first_sent_date', 'hs_governance_rules', 'hs_language', 'hs_last_buyer_interaction_date', 'hs_last_published_date', 'hs_last_reminder_sent_date', 'hs_last_sent_date', 'hs_lastmodifieddate', 'hs_legacy_stripe_migrated', 'hs_line_item_context_id', 'hs_line_item_global_term_hs_discount_percentage', 'hs_line_item_global_term_hs_discount_percentage_enabled', 'hs_line_item_global_term_hs_recurring_billing_period', 'hs_line_item_global_term_hs_recurring_billing_period_enabled', 'hs_line_item_global_term_hs_recurring_billing_start_date', 'hs_line_item_global_term_hs_recurring_billing_start_date_enabled', 'hs_line_item_global_term_recurringbillingfrequency', 'hs_line_item_global_term_recurringbillingfrequency_enabled', 'hs_locale', 'hs_lock_reason', 'hs_locked', 'hs_logo_url', 'hs_manually_signed', 'hs_merged_object_ids', 'hs_net_payment_terms', 'hs_num_associated_deals', 'hs_number_of_buyer_billing_contact_changes', 'hs_object_id', 'hs_object_source', 'hs_object_source_detail_1', 'hs_object_source_detail_2', 'hs_object_source_detail_3', 'hs_object_source_id', 'hs_object_source_label', 'hs_object_source_user_id', 'hs_original_template_path', 'hs_owning_teams', 'hs_payment_date', 'hs_payment_enabled', 'hs_payment_status', 'hs_payment_type', 'hs_pdf_download_link', 'hs_pdf_generation_error_reason', 'hs_pdf_generation_status', 'hs_pinned_engagement_id', 'hs_primary_color', 'hs_proposal_domain', 'hs_proposal_slug', 'hs_proposal_template_path', 'hs_public_url_key', 'hs_purchase_order_editability', 'hs_purchase_order_number', 'hs_quote_activity_count', 'hs_quote_activity_count_since_last_communication', 'hs_quote_amount', 'hs_quote_amount_in_home_currency', 'hs_quote_auth_method', 'hs_quote_auth_password', 'hs_quote_download_count', 'hs_quote_download_count_since_last_communication', 'hs_quote_esign_status', 'hs_quote_link', 'hs_quote_number', 'hs_quote_owner_id', 'hs_quote_print_count', 'hs_quote_print_count_since_last_communication', 'hs_quote_progression_status', 'hs_quote_status', 'hs_quote_total_preference', 'hs_quote_version', 'hs_quote_view_count', 'hs_quote_view_count_since_last_communication', 'hs_read_only', 'hs_render_status', 'hs_sales_email_last_replied', 'hs_sender_company_address', 'hs_sender_company_address2', 'hs_sender_company_city', 'hs_sender_company_country', 'hs_sender_company_domain', 'hs_sender_company_image_url', 'hs_sender_company_name', 'hs_sender_company_state', 'hs_sender_company_zip', 'hs_sender_email', 'hs_sender_firstname', 'hs_sender_image_url', 'hs_sender_jobtitle', 'hs_sender_lastname', 'hs_sender_phone', 'hs_shared_team_ids', 'hs_shared_user_ids', 'hs_show_bill_to_details', 'hs_show_countersignature_box', 'hs_show_signature_box', 'hs_sign_status', 'hs_slug', 'hs_sold_to_details_editability', 'hs_status', 'hs_store_payment_method_at_checkout', 'hs_tax_calculation_id', 'hs_tax_total', 'hs_tcv', 'hs_template', 'hs_template_type', 'hs_terms', 'hs_test_mode', 'hs_timezone', 'hs_title', 'hs_total_discount', 'hs_total_discount_percent', 'hs_type', 'hs_unique_creation_key', 'hs_upcoming_reminder_date', 'hs_updated_by_user_id', 'hs_user_ids_of_all_notification_followers', 'hs_user_ids_of_all_notification_unfollowers', 'hs_user_ids_of_all_owners', 'hs_uses_company_address_for_billing_address', 'hs_was_imported', 'hubspot_owner_assigneddate', 'hubspot_owner_id', 'hubspot_team_id', 'notes_last_contacted', 'notes_last_updated', 'notes_next_activity_date', 'num_contacted_notes', 'num_notes'",
+          "timestamp": "5/4/2026, 12:24:00 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 11,
+      "name": "Leads",
+      "type": "",
+      "color": "#db3333",
+      "x": -604.5342404795945,
+      "y": 123.88197376727513,
+      "comments": [
+        {
+          "text": "'hs_all_accessible_team_ids', 'hs_all_assigned_business_unit_ids', 'hs_all_owner_ids', 'hs_all_team_ids', 'hs_associated_company_domain', 'hs_associated_company_name', 'hs_associated_contact_email', 'hs_associated_contact_firstname', 'hs_associated_contact_lastname', 'hs_calls_attempted_count', 'hs_calls_connected_count', 'hs_company_analytics_source', 'hs_company_analytics_source_data_1', 'hs_company_analytics_source_data_2', 'hs_company_is_target_account', 'hs_company_last_activity_date', 'hs_company_last_engagement_timestamp', 'hs_company_last_engagement_type', 'hs_company_last_webpage_visit_timestamp', 'hs_company_next_activity_date', 'hs_company_next_activity_type', 'hs_company_num_webpage_views', 'hs_company_timezone', 'hs_contact_analytics_source', 'hs_contact_analytics_source_data_1', 'hs_contact_analytics_source_data_2', 'hs_contact_buying_role', 'hs_contact_job_title', 'hs_contact_last_activity_date', 'hs_contact_last_engagement_timestamp', 'hs_contact_last_engagement_type', 'hs_contact_last_webpage_visit_timestamp', 'hs_contact_next_activity_date', 'hs_contact_next_activity_type', 'hs_contact_num_webpage_views', 'hs_contact_timezone', 'hs_created_by_user_id', 'hs_createdate', 'hs_date_entered_attempting_stage_id_745667965', 'hs_date_entered_connected_stage_id_2058487257', 'hs_date_entered_new_stage_id_1318266061', 'hs_date_entered_qualified_stage_id_233247981', 'hs_date_entered_unqualified_stage_id_1675714327', 'hs_date_exited_attempting_stage_id_745667965', 'hs_date_exited_connected_stage_id_2058487257', 'hs_date_exited_new_stage_id_1318266061', 'hs_date_exited_qualified_stage_id_233247981', 'hs_date_exited_unqualified_stage_id_1675714327', 'hs_emails_connected_count', 'hs_emails_connected_count_v2', 'hs_last_activity_date', 'hs_last_engagement_timestamp', 'hs_last_engagement_type', 'hs_last_webpage_visit_timestamp', 'hs_lastmodifieddate', 'hs_lead_associated_deal_pipeline_stage', 'hs_lead_associated_deals_count', 'hs_lead_call_count', 'hs_lead_closed_won_deals_amount', 'hs_lead_communication_count', 'hs_lead_currency_code', 'hs_lead_disqualification_note', 'hs_lead_disqualification_reason', 'hs_lead_email_count', 'hs_lead_first_outreach_date', 'hs_lead_flow_id', 'hs_lead_import_unique_key', 'hs_lead_inferred_pseudostage', 'hs_lead_is_disqualified', 'hs_lead_is_in_progress', 'hs_lead_is_new', 'hs_lead_is_open', 'hs_lead_is_open_v2', 'hs_lead_is_qualified', 'hs_lead_label', 'hs_lead_meeting_count', 'hs_lead_name', 'hs_lead_name_calculated', 'hs_lead_outreach_activity_count', 'hs_lead_pipeline_value', 'hs_lead_primary_company_owner', 'hs_lead_primary_contact_owner', 'hs_lead_source', 'hs_lead_source_company_lifecycle_stage', 'hs_lead_source_contact_lifecycle_stage', 'hs_lead_source_drill_down_1', 'hs_lead_source_drill_down_2', 'hs_lead_source_lifecycle_stage', 'hs_lead_time_to_first_outreach', 'hs_lead_title', 'hs_lead_type', 'hs_meetings_connected_count', 'hs_merged_object_ids', 'hs_next_activity_date', 'hs_next_activity_type', 'hs_notes_backing_company_last_activity', 'hs_notes_backing_company_next_activity', 'hs_notes_backing_contact_last_activity', 'hs_notes_backing_contact_next_activity', 'hs_notes_principal_backing_object_last_activity', 'hs_notes_principal_backing_object_next_activity', 'hs_num_webpage_views', 'hs_object_id', 'hs_object_source', 'hs_object_source_detail_1', 'hs_object_source_detail_2', 'hs_object_source_detail_3', 'hs_object_source_id', 'hs_object_source_label', 'hs_object_source_user_id', 'hs_owner_id_calculated', 'hs_owning_teams', 'hs_pinned_engagement_id', 'hs_pipeline', 'hs_pipeline_stage', 'hs_pipeline_stage_category', 'hs_pipeline_stage_category_last_updated_at', 'hs_pipeline_stage_category_v2', 'hs_pipeline_stage_last_updated', 'hs_primary_associated_object_name', 'hs_primary_company_id', 'hs_primary_contact_enrolled_in_sequence', 'hs_primary_contact_id', 'hs_read_only', 'hs_shared_team_ids', 'hs_shared_user_ids', 'hs_source_form_submission', 'hs_tag_ids', 'hs_time_in_attempting_stage_id_745667965', 'hs_time_in_connected_stage_id_2058487257', 'hs_time_in_new_stage_id_1318266061', 'hs_time_in_qualified_stage_id_233247981', 'hs_time_in_unqualified_stage_id_1675714327', 'hs_unique_creation_key', 'hs_updated_by_user_id', 'hs_user_ids_of_all_notification_followers', 'hs_user_ids_of_all_notification_unfollowers', 'hs_user_ids_of_all_owners', 'hs_v2_cumulative_time_in_attempting_stage_id_745667965', 'hs_v2_cumulative_time_in_connected_stage_id_2058487257', 'hs_v2_cumulative_time_in_new_stage_id_1318266061', 'hs_v2_cumulative_time_in_qualified_stage_id_233247981', 'hs_v2_cumulative_time_in_unqualified_stage_id_1675714327', 'hs_v2_date_entered_attempting_stage_id_745667965', 'hs_v2_date_entered_connected_stage_id_2058487257', 'hs_v2_date_entered_current_stage', 'hs_v2_date_entered_new_stage_id_1318266061', 'hs_v2_date_entered_qualified_stage_id_233247981', 'hs_v2_date_entered_unqualified_stage_id_1675714327', 'hs_v2_date_exited_attempting_stage_id_745667965', 'hs_v2_date_exited_connected_stage_id_2058487257', 'hs_v2_date_exited_new_stage_id_1318266061', 'hs_v2_date_exited_qualified_stage_id_233247981', 'hs_v2_date_exited_unqualified_stage_id_1675714327', 'hs_v2_latest_time_in_attempting_stage_id_745667965', 'hs_v2_latest_time_in_connected_stage_id_2058487257', 'hs_v2_latest_time_in_new_stage_id_1318266061', 'hs_v2_latest_time_in_qualified_stage_id_233247981', 'hs_v2_latest_time_in_unqualified_stage_id_1675714327', 'hs_v2_time_in_current_stage', 'hs_was_imported', 'hs_workflow_updated_lifecycle_stage_of_company', 'hs_workflow_updated_lifecycle_stage_of_contact', 'hubspot_owner_assigneddate', 'hubspot_owner_id', 'hubspot_team_id'",
+          "timestamp": "5/4/2026, 12:24:47 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 12,
+      "name": "Tickets",
+      "type": "",
+      "color": "#db3333",
+      "x": -8.392666050685682,
+      "y": -209.78641149012083,
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 13,
+      "name": "Owners",
+      "type": "",
+      "color": "#db3333",
+      "x": -1145.406838117544,
+      "y": -320.5431138908715,
+      "comments": [
+        {
+          "text": "FORBIDEN",
+          "timestamp": "5/4/2026, 12:42:01 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 14,
+      "name": "Deal Pipelines",
+      "type": "",
+      "color": "#db3333",
+      "x": 233.25376748481662,
+      "y": 1.0471728834926028,
+      "comments": [
+        {
+          "text": "properties of orders",
+          "timestamp": "5/4/2026, 12:29:07 PM"
+        },
+        {
+          "text": "'hs_all_accessible_team_ids', 'hs_all_assigned_business_unit_ids', 'hs_all_owner_ids', 'hs_all_team_ids', 'hs_billing_address_city', 'hs_billing_address_country', 'hs_billing_address_email', 'hs_billing_address_firstname', 'hs_billing_address_lastname', 'hs_billing_address_name', 'hs_billing_address_phone', 'hs_billing_address_postal_code', 'hs_billing_address_state', 'hs_billing_address_street', 'hs_buyer_accepts_marketing', 'hs_cancellation_reason', 'hs_closed_date', 'hs_created_by_user_id', 'hs_createdate', 'hs_currency_code', 'hs_customer_phone', 'hs_discount_codes', 'hs_exchange_rate', 'hs_external_canceled_date', 'hs_external_cart_id', 'hs_external_checkout_id', 'hs_external_created_date', 'hs_external_modified_date', 'hs_external_order_id', 'hs_external_order_status', 'hs_external_order_url', 'hs_fulfillment_status', 'hs_homecurrency_amount', 'hs_is_canceled', 'hs_is_closed', 'hs_landing_site', 'hs_lastmodifieddate', 'hs_merged_object_ids', 'hs_object_id', 'hs_object_source', 'hs_object_source_detail_1', 'hs_object_source_detail_2', 'hs_object_source_detail_3', 'hs_object_source_id', 'hs_object_source_label', 'hs_object_source_user_id', 'hs_order_business_type', 'hs_order_discount', 'hs_order_name', 'hs_order_note', 'hs_order_type', 'hs_owning_teams', 'hs_payment_processing_method', 'hs_payment_status', 'hs_pinned_engagement_id', 'hs_pipeline', 'hs_pipeline_stage', 'hs_processed_date', 'hs_read_only', 'hs_referring_site', 'hs_refund_amount', 'hs_shared_team_ids', 'hs_shared_user_ids', 'hs_shipping_address_city', 'hs_shipping_address_country', 'hs_shipping_address_name', 'hs_shipping_address_phone', 'hs_shipping_address_postal_code', 'hs_shipping_address_state', 'hs_shipping_address_street', 'hs_shipping_cost', 'hs_shipping_status_url', 'hs_shipping_tracking_number', 'hs_source_id', 'hs_source_store', 'hs_subtotal_price', 'hs_tags', 'hs_tax', 'hs_total_price', 'hs_total_weight', 'hs_unique_creation_key', 'hs_updated_by_user_id', 'hs_user_ids_of_all_notification_followers', 'hs_user_ids_of_all_notification_unfollowers', 'hs_user_ids_of_all_owners', 'hs_was_imported', 'hubspot_owner_assigneddate', 'hubspot_owner_id', 'hubspot_team_id'",
+          "timestamp": "5/4/2026, 12:29:25 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 20,
+      "name": "Goals",
+      "type": "",
+      "color": "#db3333",
+      "x": 301.63675987705875,
+      "y": -421.4053705144376,
+      "comments": [
+        {
+          "text": "'hs__migration_soft_delete', 'hs_ad_account_asset_ids', 'hs_ad_campaign_asset_ids', 'hs_all_accessible_team_ids', 'hs_all_assigned_business_unit_ids', 'hs_all_owner_ids', 'hs_all_team_ids', 'hs_assignee_portal_id', 'hs_assignee_property_name', 'hs_assignee_team_id', 'hs_assignee_type', 'hs_assignee_user_id', 'hs_campaign_asset_ids', 'hs_contact_lifecycle_stage', 'hs_created_by_user_id', 'hs_createdate', 'hs_currency', 'hs_currency_exchange_rate', 'hs_deal_pipeline_ids', 'hs_edit_updates_notification_frequency', 'hs_effective_marketing_kpi_start_datetime', 'hs_end_date', 'hs_end_datetime', 'hs_extra_team_member_user_ids', 'hs_fiscal_year_offset', 'hs_forecast_type_id', 'hs_goal_definition_key', 'hs_goal_definition_key_with_team', 'hs_goal_definition_key_with_user', 'hs_goal_name', 'hs_goal_target_currency_code', 'hs_goal_target_group_id', 'hs_goal_type', 'hs_group_correlation_uuid', 'hs_is_forecastable', 'hs_is_legacy', 'hs_kpi_attribution_model', 'hs_kpi_display_unit', 'hs_kpi_filter_groups', 'hs_kpi_filter_groups_for_key_grouping', 'hs_kpi_filter_groups_for_key_team_grouping', 'hs_kpi_is_team_rollup', 'hs_kpi_metric_type', 'hs_kpi_object_type', 'hs_kpi_object_type_id', 'hs_kpi_progress_percent', 'hs_kpi_property_name', 'hs_kpi_single_object_custom_goal_type_name', 'hs_kpi_time_period_property', 'hs_kpi_time_period_property_type', 'hs_kpi_tracking_method', 'hs_kpi_unit_type', 'hs_kpi_value', 'hs_kpi_value_calculated_at', 'hs_kpi_value_last_calculated_at', 'hs_lastmodifieddate', 'hs_legacy_active', 'hs_legacy_created_at', 'hs_legacy_created_by', 'hs_legacy_quarterly_target_composite_id', 'hs_legacy_sql_id', 'hs_legacy_unique_sql_id', 'hs_legacy_updated_at', 'hs_legacy_updated_by', 'hs_marketing_campaign_object_ids', 'hs_merged_object_ids', 'hs_migration_soft_delete', 'hs_milestone', 'hs_object_id', 'hs_object_source', 'hs_object_source_detail_1', 'hs_object_source_detail_2', 'hs_object_source_detail_3', 'hs_object_source_id', 'hs_object_source_label', 'hs_object_source_user_id', 'hs_outcome', 'hs_owner_ids_of_all_owners', 'hs_owning_teams', 'hs_pinned_engagement_id', 'hs_pipeline_ids', 'hs_pipelines', 'hs_progress_updates_notification_frequency', 'hs_read_only', 'hs_shared_team_ids', 'hs_shared_user_ids', 'hs_should_notify_on_achieved', 'hs_should_notify_on_edit_updates', 'hs_should_notify_on_exceeded', 'hs_should_notify_on_kickoff', 'hs_should_notify_on_missed', 'hs_should_notify_on_progress_updates', 'hs_should_recalculate', 'hs_start_date', 'hs_start_datetime', 'hs_static_kpi_filter_groups', 'hs_status', 'hs_status_display_order', 'hs_target_amount', 'hs_target_amount_in_home_currency', 'hs_team_id', 'hs_template_id', 'hs_ticket_pipeline_ids', 'hs_unique_creation_key', 'hs_updated_by_user_id', 'hs_user_id', 'hs_user_ids_of_all_notification_followers', 'hs_user_ids_of_all_notification_unfollowers', 'hs_user_ids_of_all_owners', 'hs_was_imported', 'hubspot_owner_assigneddate', 'hubspot_owner_id', 'hubspot_team_id'",
+          "timestamp": "5/4/2026, 12:31:33 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 21,
+      "name": "Lists",
+      "type": "",
+      "color": "#db3333",
+      "x": -852.8561490497912,
+      "y": 826.268348116019,
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 22,
+      "name": "Sales Emails",
+      "type": "",
+      "color": "#db3333",
+      "x": -439.9742847275494,
+      "y": 21.97274084548718,
+      "comments": [
+        {
+          "text": "'hs_all_accessible_team_ids', 'hs_all_assigned_business_unit_ids', 'hs_all_owner_ids', 'hs_all_team_ids', 'hs_app_id', 'hs_at_mentioned_owner_ids', 'hs_at_mentioned_team_ids', 'hs_attachment_ids', 'hs_body_preview', 'hs_body_preview_html', 'hs_body_preview_is_truncated', 'hs_campaign_guid', 'hs_campaign_guids', 'hs_created_by', 'hs_created_by_user_id', 'hs_createdate', 'hs_direction_and_unique_id', 'hs_email_associated_contact_id', 'hs_email_attached_video_id', 'hs_email_attached_video_name', 'hs_email_attached_video_opened', 'hs_email_attached_video_watched', 'hs_email_bcc_email', 'hs_email_bcc_firstname', 'hs_email_bcc_lastname', 'hs_email_bcc_raw', 'hs_email_bounce_error_detail_message', 'hs_email_bounce_error_detail_status_code', 'hs_email_cc_email', 'hs_email_cc_firstname', 'hs_email_cc_lastname', 'hs_email_cc_raw', 'hs_email_click_count', 'hs_email_click_rate', 'hs_email_details', 'hs_email_direction', 'hs_email_encoded_email_associations_request', 'hs_email_error_message', 'hs_email_facsimile_send_id', 'hs_email_from_email', 'hs_email_from_firstname', 'hs_email_from_lastname', 'hs_email_from_raw', 'hs_email_has_inline_images_stripped', 'hs_email_headers', 'hs_email_html', 'hs_email_logged_from', 'hs_email_media_processing_status', 'hs_email_member_of_forwarded_subthread', 'hs_email_message_id', 'hs_email_migrated_via_portal_data_migration', 'hs_email_ms_teams_payload', 'hs_email_open_count', 'hs_email_open_rate', 'hs_email_pending_inline_image_ids', 'hs_email_post_send_status', 'hs_email_recipient_drop_reasons', 'hs_email_reply_count', 'hs_email_reply_rate', 'hs_email_send_event_id', 'hs_email_send_event_id_created', 'hs_email_sender_email', 'hs_email_sender_firstname', 'hs_email_sender_lastname', 'hs_email_sender_raw', 'hs_email_sent_count', 'hs_email_sent_via', 'hs_email_status', 'hs_email_stripped_attachment_count', 'hs_email_subject', 'hs_email_text', 'hs_email_thread_id', 'hs_email_thread_summary', 'hs_email_to_email', 'hs_email_to_firstname', 'hs_email_to_lastname', 'hs_email_to_raw', 'hs_email_tracker_key', 'hs_email_validation_skipped', 'hs_engagement_source', 'hs_engagement_source_id', 'hs_engagements_last_contacted', 'hs_follow_up_action', 'hs_gdpr_deleted', 'hs_in_reply_to_engagement_id', 'hs_incoming_email_is_out_of_office', 'hs_lastmodifieddate', 'hs_merged_object_ids', 'hs_modified_by', 'hs_not_tracking_opens_or_clicks', 'hs_obj_coords', 'hs_object_id', 'hs_object_source', 'hs_object_source_detail_1', 'hs_object_source_detail_2', 'hs_object_source_detail_3', 'hs_object_source_id', 'hs_object_source_label', 'hs_object_source_user_id', 'hs_owner_ids_bcc', 'hs_owner_ids_cc', 'hs_owner_ids_from', 'hs_owner_ids_to', 'hs_owning_teams', 'hs_pinned_engagement_id', 'hs_product_name', 'hs_queue_membership_ids', 'hs_read_only', 'hs_scs_association_status', 'hs_scs_audit_id', 'hs_sequence_id', 'hs_shared_team_ids', 'hs_shared_user_ids', 'hs_template_id', 'hs_ticket_create_date', 'hs_timestamp', 'hs_unique_creation_key', 'hs_unique_id', 'hs_unique_tracker_key', 'hs_updated_by_user_id', 'hs_user_ids_of_all_notification_followers', 'hs_user_ids_of_all_notification_unfollowers', 'hs_user_ids_of_all_owners', 'hs_was_imported', 'hubspot_owner_assigneddate', 'hubspot_owner_id', 'hubspot_team_id'",
+          "timestamp": "5/4/2026, 12:36:07 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 23,
+      "name": "Feedback Submissions",
+      "type": "",
+      "color": "#db3333",
+      "x": -500.5187588163152,
+      "y": 185.88566194903277,
+      "comments": [
+        {
+          "text": "'hs_agent_email', 'hs_agent_id', 'hs_agent_name', 'hs_all_accessible_team_ids', 'hs_all_assigned_business_unit_ids', 'hs_all_owner_ids', 'hs_all_team_ids', 'hs_call_id', 'hs_cart_id', 'hs_chatflow_id', 'hs_chatflow_name', 'hs_chatflow_object_id', 'hs_commerce_payment_id', 'hs_company_id', 'hs_company_name', 'hs_contact_email_rollup', 'hs_contact_firstname', 'hs_contact_id', 'hs_contact_lastname', 'hs_content', 'hs_conversation_thread_id', 'hs_created_by_user_id', 'hs_createdate', 'hs_csat_promoters_count', 'hs_deal_id', 'hs_deal_name', 'hs_deal_owner_id', 'hs_deal_stage_name', 'hs_engagement_id', 'hs_form_guid', 'hs_industry_standard_question_type', 'hs_ingestion_id', 'hs_invoice_id', 'hs_is_ticket_visible_in_help_desk', 'hs_knowledge_article_id', 'hs_lastmodifieddate', 'hs_lead_id', 'hs_marketing_event_attendance_id', 'hs_merged_object_ids', 'hs_negative_follow_up', 'hs_neutral_follow_up', 'hs_nps_detractors_count', 'hs_nps_promoters_count', 'hs_object_id', 'hs_object_source', 'hs_object_source_detail_1', 'hs_object_source_detail_2', 'hs_object_source_detail_3', 'hs_object_source_id', 'hs_object_source_label', 'hs_object_source_user_id', 'hs_order_id', 'hs_owning_teams', 'hs_pinned_engagement_id', 'hs_positive_follow_up', 'hs_quote_id', 'hs_read_only', 'hs_response_group', 'hs_sentiment', 'hs_shared_team_ids', 'hs_shared_user_ids', 'hs_submission_name', 'hs_submission_timestamp', 'hs_submission_url', 'hs_subscription_id', 'hs_survey_channel', 'hs_survey_crm_object_id', 'hs_survey_id', 'hs_survey_name', 'hs_survey_question_metadata', 'hs_survey_type', 'hs_tag_ids', 'hs_tags', 'hs_ticket_assigned_team_ids', 'hs_ticket_id', 'hs_ticket_owner_avatar_uri', 'hs_ticket_owner_id', 'hs_ticket_pipeline', 'hs_ticket_subject', 'hs_unique_creation_key', 'hs_updated_by_user_id', 'hs_user_ids_of_all_notification_followers', 'hs_user_ids_of_all_notification_unfollowers', 'hs_user_ids_of_all_owners', 'hs_value', 'hs_visitor_id', 'hs_was_imported', 'hubspot_owner_assigneddate', 'hubspot_owner_id', 'hubspot_team_id'",
+          "timestamp": "5/4/2026, 12:37:52 PM"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 24,
+      "name": "Currencies",
+      "type": "",
+      "color": "#db3333",
+      "x": 289.78089963931524,
+      "y": 1181.125765896443,
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 25,
+      "name": "Users",
+      "type": "",
+      "color": "#db3333",
+      "x": 1277.9602799160098,
+      "y": -237.155482498854,
+      "comments": [],
+      "tags": []
+    },
+    {
+      "id": 26,
+      "name": "Teams",
+      "type": "",
+      "color": "#db3333",
+      "x": -325.43683015355975,
+      "y": -1167.6349589987028,
+      "comments": [],
+      "tags": []
+    }
+  ],
+  "links": [
+    {
+      "id": 0,
+      "sourceId": 10,
+      "targetId": 8,
+      "name": "64 ; 1393",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 1,
+      "sourceId": 5,
+      "targetId": 8,
+      "name": "6 ; 342",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 2,
+      "sourceId": 8,
+      "targetId": 5,
+      "name": "5 ; 341",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "sourceId": 8,
+      "targetId": 10,
+      "name": "63 ; 1392",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 4,
+      "sourceId": 8,
+      "targetId": 6,
+      "name": "3",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "sourceId": 6,
+      "targetId": 8,
+      "name": "4",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 6,
+      "sourceId": 8,
+      "targetId": 11,
+      "name": "1038 ; 583",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 7,
+      "sourceId": 11,
+      "targetId": 8,
+      "name": "1037 ; 582",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 8,
+      "sourceId": 8,
+      "targetId": 14,
+      "name": "512",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 9,
+      "sourceId": 14,
+      "targetId": 8,
+      "name": "511",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 10,
+      "sourceId": 8,
+      "targetId": 12,
+      "name": "28",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 11,
+      "sourceId": 12,
+      "targetId": 8,
+      "name": "27",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 12,
+      "sourceId": 8,
+      "targetId": 9,
+      "name": "20",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 13,
+      "sourceId": 9,
+      "targetId": 8,
+      "name": "19",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 14,
+      "sourceId": 8,
+      "targetId": 22,
+      "name": "210",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 15,
+      "sourceId": 22,
+      "targetId": 8,
+      "name": "209",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 16,
+      "sourceId": 8,
+      "targetId": 23,
+      "name": "986",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 17,
+      "sourceId": 23,
+      "targetId": 8,
+      "name": "985",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 18,
+      "sourceId": 5,
+      "targetId": 10,
+      "name": "72 ; 1335",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 19,
+      "sourceId": 10,
+      "targetId": 5,
+      "name": "71 ; 1334",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 20,
+      "sourceId": 5,
+      "targetId": 6,
+      "name": "279 ; 2 ; 930",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 21,
+      "sourceId": 6,
+      "targetId": 5,
+      "name": "280 ; 1 ; 931",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 22,
+      "sourceId": 5,
+      "targetId": 11,
+      "name": "611 ; 581",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 23,
+      "sourceId": 11,
+      "targetId": 5,
+      "name": "610 ; 580",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 24,
+      "sourceId": 5,
+      "targetId": 12,
+      "name": "340 ; 25",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 25,
+      "sourceId": 12,
+      "targetId": 5,
+      "name": "339 ; 26",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 26,
+      "sourceId": 5,
+      "targetId": 22,
+      "name": "185",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 27,
+      "sourceId": 22,
+      "targetId": 5,
+      "name": "186",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 28,
+      "sourceId": 5,
+      "targetId": 23,
+      "name": "929",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 29,
+      "sourceId": 23,
+      "targetId": 5,
+      "name": "928",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 30,
+      "sourceId": 6,
+      "targetId": 10,
+      "name": "70 ; 1227 ; 703",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 31,
+      "sourceId": 10,
+      "targetId": 6,
+      "name": "69 ; 1226 ; 702",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 32,
+      "sourceId": 6,
+      "targetId": 11,
+      "name": "609 ; 579",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 33,
+      "sourceId": 11,
+      "targetId": 6,
+      "name": "608 ; 578",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 34,
+      "sourceId": 6,
+      "targetId": 14,
+      "name": "508",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 35,
+      "sourceId": 14,
+      "targetId": 6,
+      "name": "507",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 36,
+      "sourceId": 6,
+      "targetId": 12,
+      "name": "15",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 37,
+      "sourceId": 12,
+      "targetId": 6,
+      "name": "16",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 38,
+      "sourceId": 6,
+      "targetId": 22,
+      "name": "197",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 39,
+      "sourceId": 22,
+      "targetId": 6,
+      "name": "198",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 40,
+      "sourceId": 6,
+      "targetId": 23,
+      "name": "97",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 41,
+      "sourceId": 23,
+      "targetId": 6,
+      "name": "98",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 42,
+      "sourceId": 9,
+      "targetId": 10,
+      "name": "68",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 43,
+      "sourceId": 10,
+      "targetId": 9,
+      "name": "67",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 44,
+      "sourceId": 9,
+      "targetId": 14,
+      "name": "513",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 45,
+      "sourceId": 14,
+      "targetId": 9,
+      "name": "514",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 46,
+      "sourceId": 11,
+      "targetId": 22,
+      "name": "598",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 47,
+      "sourceId": 22,
+      "targetId": 11,
+      "name": "599",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 48,
+      "sourceId": 11,
+      "targetId": 23,
+      "name": "598",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 49,
+      "sourceId": 23,
+      "targetId": 11,
+      "name": "599",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 50,
+      "sourceId": 12,
+      "targetId": 14,
+      "name": "526",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 51,
+      "sourceId": 14,
+      "targetId": 12,
+      "name": "525",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 52,
+      "sourceId": 12,
+      "targetId": 22,
+      "name": "223",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 53,
+      "sourceId": 22,
+      "targetId": 12,
+      "name": "224",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 54,
+      "sourceId": 12,
+      "targetId": 23,
+      "name": "99",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 55,
+      "sourceId": 23,
+      "targetId": 12,
+      "name": "100",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 56,
+      "sourceId": 14,
+      "targetId": 10,
+      "name": "730",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 57,
+      "sourceId": 10,
+      "targetId": 14,
+      "name": "731",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 58,
+      "sourceId": 14,
+      "targetId": 22,
+      "name": "776",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 59,
+      "sourceId": 22,
+      "targetId": 14,
+      "name": "777",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 60,
+      "sourceId": 14,
+      "targetId": 23,
+      "name": "1168",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 61,
+      "sourceId": 23,
+      "targetId": 14,
+      "name": "1167",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 62,
+      "sourceId": 23,
+      "targetId": 10,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 63,
+      "sourceId": 10,
+      "targetId": 23,
+      "name": "",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 64,
+      "sourceId": 22,
+      "targetId": 23,
+      "name": "777",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 65,
+      "sourceId": 23,
+      "targetId": 22,
+      "name": "776",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 66,
+      "sourceId": 20,
+      "targetId": 8,
+      "name": "1356",
+      "type": "",
+      "color": "",
+      "comments": []
+    },
+    {
+      "id": 67,
+      "sourceId": 8,
+      "targetId": 20,
+      "name": "1357",
+      "type": "",
+      "color": "",
+      "comments": []
+    }
+  ],
+  "nextNodeId": 27,
+  "nextLinkId": 68,
+  "globalTags": [],
+  "nodeRadius": 30,
+  "selectedLogo": "1779964943226"
+}

@@ -1,0 +1,32 @@
+Graph intelligence
+
+Community detection — automatically cluster tightly-connected nodes into logical domains (Louvain algorithm) — the computational version of finding tilting subcategories
+Merge graphs — import two .json graph files and intelligently merge them by matching node names/types, with conflict resolution
+Fabric-specific node types
+Distinct shapes per element type: Table (rectangle), Column (small circle), Pipeline (diamond), Report (star), Lakehouse (house), Semantic model (cube)
+Import directly from Fabric metadata API — auto-generate the graph from real schema
+Link types with distinct styles: foreign key (solid), used in report (dashed), feeds pipeline (dotted with arrow), derived from (double line)
+Layout modes
+Radial mode — selected node in the center, everything else arranged by graph distance
+Hierarchical mode — layers by depth (warehouse → lakehouse → semantic model → report)
+These would live alongside the current force-directed mode as toggle options
+Anthology-specific features
+Subgraph extraction — rubber-band select a region, export it as its own .json file (like extracting a wide subcategory)
+Versioning / snapshots — save named versions of the graph to track schema evolution over time
+Node metadata panel — clicking a node opens a right-panel with custom fields (row count, owner, last updated, description, links to documentation)
+
+Interaction improvements
+
+
+Grid snap — optional snap-to-grid for clean manual layouts
+Auto-arrange selection — select a cluster and apply a local layout algorithm to just those nodes
+Export
+
+Export to draw.io (reverse of the import you already built)
+Export to JSON-LD / RDF — if the anthology needs to be machine-readable as a knowledge graph
+The anthology angle
+The most powerful framing: your system isn't just a diagram tool — it's a living ontology of your data estate. The mathematical insight from Vaso is that the structure of the relationships matters as much as the relationships themselves. Features that would make this truly an anthology:
+
+A timeline slider showing the graph state at any past date
+Provenance tracking — each node records who added it, when, and why (already have comments — extend this)
+Cross-graph references — a node in one .json file can reference a node in another, linking multiple domain graphs into one navigable anthology

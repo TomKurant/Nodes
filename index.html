@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Graph System - Menu</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/themes.css">
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-content">
+            <div class="theme-controls">
+                <label for="themeSelector">Theme:</label>
+                <select id="themeSelector" class="menu-theme-selector">
+                    <option value="light">Light Mode</option>
+                    <option value="dark">Dark Mode</option>
+                    <option value="neon">Neon</option>
+                    <option value="pastel">Pastel</option>
+                    <option value="forest">Forest</option>
+                    <option value="editorial">Editorial</option>
+                    <option value="oldschool">Old School</option>
+                    <option value="ocean">Ocean</option>
+                    <option value="crimson">Crimson</option>
+                </select>
+            </div>
+
+            <h1>Node Graph System</h1>
+            <p class="subtitle">Create and visualize interconnected nodes</p>
+
+            <!-- Graph Manager -->
+            <div class="graph-manager">
+
+                <!-- Not supported -->
+                <div id="stateUnsupported" class="state-panel" style="display:none">
+                    <p class="state-msg error-msg">
+                        Your browser does not support the File System API.<br>
+                        Please use Chrome or Edge.
+                    </p>
+                </div>
+
+                <!-- Choose folder -->
+                <div id="stateNoFolder" class="state-panel" style="display:none">
+                    <p class="state-msg">Choose a folder on your computer to store your graph files.</p>
+                    <button class="menu-btn primary-btn folder-action-btn" id="chooseFolderBtn">
+                        <span class="btn-title">📁 Choose Folder</span>
+                        <span class="btn-desc">Pick where to store your graphs</span>
+                    </button>
+                </div>
+
+                <!-- Need permission -->
+                <div id="stateNeedPermission" class="state-panel" style="display:none">
+                    <p class="state-msg">Grant access to your graphs folder to continue.</p>
+                    <button class="menu-btn primary-btn folder-action-btn" id="grantAccessBtn">
+                        <span class="btn-title">🔓 Grant Access</span>
+                        <span class="btn-desc">Allow access to the graphs folder</span>
+                    </button>
+                    <button class="menu-btn secondary-btn folder-action-btn" id="changeFolderBtn2" style="margin-top:10px">
+                        <span class="btn-title">📁 Change Folder</span>
+                    </button>
+                </div>
+
+                <!-- Ready -->
+                <div id="stateReady" style="display:none">
+                    <div class="folder-bar">
+                        <span class="folder-name-label">📁 <span id="folderNameDisplay"></span></span>
+                        <button class="btn-small" id="changeFolderBtn">Change</button>
+                    </div>
+
+                    <div class="graphs-list" id="graphsList"></div>
+
+                    <button class="menu-btn primary-btn new-graph-btn" id="newGraphBtn">
+                        <span class="btn-title">+ New Graph</span>
+                        <span class="btn-desc">Create a new graph file</span>
+                    </button>
+
+                    <button class="menu-btn secondary-btn import-drawio-btn" id="importDrawioBtn">
+                        <span class="btn-title">📥 Import from draw.io</span>
+                        <span class="btn-desc">Convert .drawio files into graph pages</span>
+                    </button>
+
+                    <input type="file" id="drawioFileInput" accept=".drawio,.xml" multiple style="display:none">
+                </div>
+
+            </div>
+
+            <!-- Logos Manager -->
+            <div class="logos-manager">
+                <div class="logos-header">
+                    <span class="logos-title">Logos (in browser's local storage)</span>
+                    <button class="upload-logo-btn" id="uploadLogoBtn">+ Upload</button>
+                    <input type="file" id="logoFileInput" accept="image/*" style="display:none">
+                </div>
+                <div id="logosList" class="logos-list"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="fixed-logo">
+        <img src="images/Kurant_Logo_3000pxw.png" alt="Logo">
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/converter.js"></script>
+    <script src="js/themes.js"></script>
+    <script>
+        function showState(state) {
+            document.getElementById('stateUnsupported').style.display  = state === 'unsupported'    ? '' : 'none';
+            document.getElementById('stateNoFolder').style.display      = state === 'noFolder'       ? '' : 'none';
+            document.getElementById('stateNeedPermission').style.display = state === 'needPermission' ? '' : 'none';
+            document.getElementById('stateReady').style.display         = state === 'ready'          ? '' : 'none';
+        }
+
+        function escapeHtml(str) {
+            return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+
+        async function refreshGraphsList() {
+            document.getElementById('folderNameDisplay').textContent = graphStorage.getDirectoryName();
+            const list = document.getElementById('graphsList');
+            list.innerHTML = '<p class="loading-msg">Loading...</p>';
+            const graphs = await graphStorage.listGraphs();
+            if (graphs.length === 0) {
+                list.innerHTML = '<p class="empty-msg">No graphs yet. Create your first one!</p>';
+                return;
+            }
+            list.innerHTML = '';
+            for (const g of graphs) {
+                const card = document.createElement('div');
+                card.className = 'graph-card';
+                card.innerHTML = `
+                    <div class="graph-card-info">
+                        <span class="graph-card-name">${escapeHtml(g.name)}</span>
+                        <span class="graph-card-date">${new Date(g.modified).toLocaleDateString()}</span>
+                    </div>
+                    <div class="graph-card-actions">
+                        <a href="graph.html?graph=${encodeURIComponent(g.filename)}" class="btn-card btn-open">Open</a>
+                        <button class="btn-card btn-del" data-file="${escapeHtml(g.filename)}">Delete</button>
+                    </div>
+                `;
+                list.appendChild(card);
+            }
+            list.querySelectorAll('.btn-del').forEach(btn => {
+                btn.addEventListener('click', async () => {
+                    const name = btn.dataset.file.replace('.json', '');
+                    if (confirm(`Delete "${name}"? This cannot be undone.`)) {
+                        await graphStorage.deleteGraph(btn.dataset.file);
+                        await refreshGraphsList();
+                    }
+                });
+            });
+        }
+
+        async function initManager() {
+            if (!graphStorage.isSupported()) {
+                showState('unsupported');
+                return;
+            }
+            const dir = await graphStorage.getDirectory();
+            if (dir) {
+                showState('ready');
+                await refreshGraphsList();
+            } else {
+                const hasHandle = await graphStorage.hasStoredHandle();
+                showState(hasHandle ? 'needPermission' : 'noFolder');
+            }
+        }
+
+        async function chooseFolder() {
+            try {
+                await graphStorage.chooseDirectory();
+                showState('ready');
+                await refreshGraphsList();
+            } catch (e) {
+                if (e.name !== 'AbortError') alert('Failed to open folder: ' + e.message);
+            }
+        }
+
+        document.getElementById('chooseFolderBtn').addEventListener('click', chooseFolder);
+        document.getElementById('changeFolderBtn2').addEventListener('click', chooseFolder);
+        document.getElementById('changeFolderBtn').addEventListener('click', chooseFolder);
+
+        document.getElementById('grantAccessBtn').addEventListener('click', async () => {
+            const granted = await graphStorage.requestPermission();
+            if (granted) {
+                showState('ready');
+                await refreshGraphsList();
+            } else {
+                alert('Access was denied. Please try again or choose a different folder.');
+            }
+        });
+
+        document.getElementById('newGraphBtn').addEventListener('click', async () => {
+            const name = prompt('Graph name:');
+            if (!name || !name.trim()) return;
+            const safeName = name.trim().replace(/[<>:"/\\|?*]/g, '_');
+            try {
+                const filename = await graphStorage.createGraph(safeName);
+                await refreshGraphsList();
+                window.location.href = `graph.html?graph=${encodeURIComponent(filename)}`;
+            } catch (e) {
+                alert('Failed to create graph: ' + e.message);
+            }
+        });
+
+        document.getElementById('importDrawioBtn').addEventListener('click', () => {
+            document.getElementById('drawioFileInput').click();
+        });
+
+        document.getElementById('drawioFileInput').addEventListener('change', async (e) => {
+            const files = Array.from(e.target.files);
+            if (!files.length) return;
+
+            const btn = document.getElementById('importDrawioBtn');
+            btn.disabled = true;
+            const originalText = btn.querySelector('.btn-desc').textContent;
+            btn.querySelector('.btn-desc').textContent = 'Importing…';
+
+            let imported = 0;
+            const errors = [];
+
+            for (const file of files) {
+                try {
+                    const xml = await file.text();
+                    const baseName = file.name.replace(/\.(drawio|xml)$/i, '');
+                    const pages = drawioConverter.convert(xml);
+
+                    for (const { name, graph } of pages) {
+                        const graphName = pages.length > 1
+                            ? `${baseName} - ${name}`
+                            : baseName;
+                        const safeName = graphName.replace(/[<>:"/\\|?*]/g, '_');
+                        await graphStorage.saveGraph(`${safeName}.json`, graph);
+                        imported++;
+                    }
+                } catch (err) {
+                    errors.push(`${file.name}: ${err.message}`);
+                }
+            }
+
+            btn.disabled = false;
+            btn.querySelector('.btn-desc').textContent = originalText;
+            e.target.value = '';
+
+            await refreshGraphsList();
+
+            if (errors.length) {
+                alert(`Imported ${imported} graph(s).\n\nErrors:\n${errors.join('\n')}`);
+            } else {
+                alert(`Imported ${imported} graph(s) successfully.`);
+            }
+        });
+
+        initManager();
+
+        // ── Logos Manager ──────────────────────────────────────────────
+        const LOGOS_KEY = 'uploadedLogos';
+
+        function getUploadedLogos() {
+            try { return JSON.parse(localStorage.getItem(LOGOS_KEY) || '[]'); }
+            catch { return []; }
+        }
+
+        function saveUploadedLogos(logos) {
+            localStorage.setItem(LOGOS_KEY, JSON.stringify(logos));
+        }
+
+        function renderLogosList() {
+            const logos = getUploadedLogos();
+            const listEl = document.getElementById('logosList');
+            listEl.innerHTML = '';
+            if (logos.length === 0) {
+                listEl.innerHTML = '<p class="logos-empty-msg">No uploaded logos yet.</p>';
+                return;
+            }
+            for (const logo of logos) {
+                const item = document.createElement('div');
+                item.className = 'logo-item';
+                item.innerHTML = `
+                    <img src="${logo.dataUrl}" class="logo-item-thumb" alt="${escapeHtml(logo.name)}">
+                    <span class="logo-item-name">${escapeHtml(logo.name)}</span>
+                    <button class="logo-item-del" data-id="${logo.id}" title="Remove logo">&times; Remove</button>
+                `;
+                listEl.appendChild(item);
+            }
+            listEl.querySelectorAll('.logo-item-del').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    let list = getUploadedLogos();
+                    list = list.filter(l => l.id !== btn.dataset.id);
+                    saveUploadedLogos(list);
+                    renderLogosList();
+                });
+            });
+        }
+
+        async function resizeLogoToDataUrl(file, maxWidth = 400) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = ev => {
+                    const img = new Image();
+                    img.onload = () => {
+                        const ratio = Math.min(1, maxWidth / img.width);
+                        const canvas = document.createElement('canvas');
+                        canvas.width  = Math.round(img.width  * ratio);
+                        canvas.height = Math.round(img.height * ratio);
+                        canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+                        resolve(canvas.toDataURL('image/png'));
+                    };
+                    img.onerror = reject;
+                    img.src = ev.target.result;
+                };
+                reader.onerror = reject;
+                reader.readAsDataURL(file);
+            });
+        }
+
+        document.getElementById('uploadLogoBtn').addEventListener('click', () => {
+            document.getElementById('logoFileInput').click();
+        });
+
+        document.getElementById('logoFileInput').addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            if (!file.type.startsWith('image/')) { alert('Please select an image file.'); return; }
+
+            try {
+                const dataUrl = await resizeLogoToDataUrl(file);
+                const name = file.name.replace(/\.[^.]+$/, '');
+                const logos = getUploadedLogos();
+                logos.push({ id: Date.now().toString(), name, dataUrl });
+                saveUploadedLogos(logos);
+                renderLogosList();
+            } catch (err) {
+                alert('Failed to load image: ' + err.message);
+            }
+            e.target.value = '';
+        });
+
+        renderLogosList();
+    </script>
+</body>
+</html>
